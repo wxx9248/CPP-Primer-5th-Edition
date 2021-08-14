@@ -10,4 +10,4 @@ Webport by me.
 
 **The content of this repository is for non-commercial and personal use only. If you like the book, please buy it.**
 
-This repository is subject to Digital Millennium Copyright Act (DMCA). If a DMCA takedown request has been initiated, the repository will be deleted immediately.
+This repository is subject to Digital Millennium Copyright Act (DMCA). If a DMCA takedown request is initiated, the repository will be deleted immediately.
