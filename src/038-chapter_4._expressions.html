@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Chapter 4. Expressions</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="page_styles.css" type="text/css" rel="stylesheet"/>
+</head>
+  <body class="calibre">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="037-defined_terms.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="039-4.1._fundamentals.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table><h2 id="filepos995349" class="calibre19"><span class="bold"><a class="calibre2"/>Chapter 4. Expressions</span></h2><div class="calibre20">&#160;</div>
+<p class="calibre14"><span class="calibre5">Contents</span></p><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="039-4.1._fundamentals.html#filepos999302">Section 4.1 Fundamentals</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="040-4.2._arithmetic_operators.html#filepos1028232">Section 4.2 Arithmetic Operators</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="041-4.3._logical_and_relational_operators.html#filepos1044115">Section 4.3 Logical and Relational Operators</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="042-4.4._assignment_operators.html#filepos1066463">Section 4.4 Assignment Operators</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="043-4.5._increment_and_decrement_operators.html#filepos1087530">Section 4.5 Increment and Decrement Operators</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="044-4.6._the_member_access_operators.html#filepos1101794">Section 4.6 The Member Access Operators</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="045-4.7._the_conditional_operator.html#filepos1107527">Section 4.7 The Conditional Operator</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="046-4.8._the_bitwise_operators.html#filepos1120642">Section 4.8 The Bitwise Operators</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="047-4.9._the_sizeof_operator.html#filepos1142429">Section 4.9 The <code class="calibre23"><tt class="calibre23"><span class="calibre24"><span><tt class="calibre23"><span class="calibre32"><span class="calibre5">sizeof</span></span></tt></span></span></tt></code> Operator</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="048-4.10._comma_operator.html#filepos1151213">Section 4.10 Comma Operator</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="049-4.11._type_conversions.html#filepos1157818">Section 4.11 Type Conversions</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="050-4.12._operator_precedence_table.html#filepos1211284">Section 4.12 Operator Precedence Table</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="051-chapter_summary.html#filepos1211678">Chapter Summary</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="052-defined_terms.html#filepos1213446">Defined Terms</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<p class="calibre14">C++ provides a rich set of operators and defines what these operators do when applied to operands of built-in type. It also allows us to define the meaning of most of the operators when applied to operands of class types. This chapter focuses on the operators as defined in the language and applied to operands of built-in type. We will also look at some of the operators defined by the library. <a href="129-chapter_14._overloaded_operations_and_conversions.html#filepos3544393">Chapter 14</a> will show how we can define operators for our own types.</p><div class="calibre15">&#160;</div>
+<p class="calibre14"><a id="filepos998698"/><em class="calibre16">An expression</em> is composed of one or more <strong class="calibre5"><a id="filepos998764" href="052-defined_terms.html#filepos1217948">operands</a></strong> and yields a <strong class="calibre5"><a id="filepos998847" href="052-defined_terms.html#filepos1220632">result</a></strong> when it is evaluated. The simplest form of an <strong class="calibre5"><a id="filepos998961" href="052-defined_terms.html#filepos1216138">expression</a></strong> is a single literal or variable. The result of such an expression is the value of the variable or literal. More complicated expressions are formed from an <strong class="calibre5"><a id="filepos999188" href="052-defined_terms.html#filepos1218217">operator</a></strong> and one or more operands.</p><div class="calibre15">&#160;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="037-defined_terms.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="039-4.1._fundamentals.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table></body></html>

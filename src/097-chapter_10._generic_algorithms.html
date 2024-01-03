@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Chapter 10. Generic Algorithms</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="page_styles.css" type="text/css" rel="stylesheet"/>
+</head>
+  <body class="calibre">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="096-defined_terms.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="098-10.1._overview.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table><h2 id="filepos2454824" class="calibre19"><span class="bold"><a class="calibre2"/>Chapter 10. Generic Algorithms</span></h2><div class="calibre20">&#160;</div>
+<p class="calibre14"><span class="calibre5">Contents</span></p><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="098-10.1._overview.html#filepos2458324">Section 10.1 Overview</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="099-10.2._a_first_look_at_the_algorithms.html#filepos2472467">Section 10.2 A First Look at the Algorithms</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="100-10.3._customizing_operations.html#filepos2519145">Section 10.3 Customizing Operations</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="101-10.4._revisiting_iterators.html#filepos2617947">Section 10.4 Revisiting Iterators</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="102-10.5._structure_of_generic_algorithms.html#filepos2671539">Section 10.5 Structure of Generic Algorithms</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="103-10.6._containerspecific_algorithms.html#filepos2700621">Section 10.6 Container-Specific Algorithms</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="104-chapter_summary.html#filepos2707156">Chapter Summary</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="105-defined_terms.html#filepos2709584">Defined Terms</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<p class="calibre14">The library containers define a surprisingly small set of operations. Rather than adding lots of functionality to each container, the library provides a set of algorithms, most of which are independent of any particular container type. These algorithms are <em class="calibre16">generic</em>: They operate on different types of containers and on elements of various types.</p><div class="calibre15">&#160;</div>
+<p class="calibre25">The generic algorithms, and a more detailed look at iterators, form the subject matter of this chapter.</p><div class="calibre22">&#160;</div>
+<p class="calibre14"><a id="filepos2457027"/><em class="calibre16">The sequential containers</em> define few operations: For the most part, we can add and remove elements, access the first or last element, determine whether a container is empty, and obtain iterators to the first or one past the last element.</p><div class="calibre15">&#160;</div>
+<p class="calibre25">We can imagine many other useful operations one might want to do: We might want to find a particular element, replace or remove a particular value, reorder the container elements, and so on.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">Rather than define each of these operations as members of each container type, the standard library defines a set of <strong class="calibre5"><a id="filepos2457726" href="105-defined_terms.html#filepos2712822">generic algorithms</a></strong>: &#8220;algorithms&#8221; because they implement common classical algorithms such as sorting and searching, and &#8220;generic&#8221; because they operate on elements of differing type and across multiple container types&#8212;not only library types such as <code class="calibre23"><tt class="calibre23"><span class="calibre24">vector</span></tt></code> or <code class="calibre23"><tt class="calibre23"><span class="calibre24">list</span></tt></code>, but also the built-in array type&#8212;and, as we shall see, over other kinds of sequences as well.</p><div class="calibre22">&#160;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="096-defined_terms.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="098-10.1._overview.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table></body></html>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Chapter 14. Overloaded Operations and Conversions</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="page_styles.css" type="text/css" rel="stylesheet"/>
+</head>
+  <body class="calibre">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="128-defined_terms.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="130-14.1._basic_concepts.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table><h2 id="filepos3544393" class="calibre19"><span class="bold"><a class="calibre2"/>Chapter 14. Overloaded Operations and Conversions</span></h2><div class="calibre20">&#160;</div>
+<p class="calibre14"><span class="calibre5">Contents</span></p><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="130-14.1._basic_concepts.html#filepos3549336">Section 14.1 Basic Concepts</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="131-14.2._input_and_output_operators.html#filepos3576045">Section 14.2 Input and Output Operators</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="132-14.3._arithmetic_and_relational_operators.html#filepos3595833">Section 14.3 Arithmetic and Relational Operators</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="133-14.4._assignment_operators.html#filepos3614210">Section 14.4 Assignment Operators</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="134-14.5._subscript_operator.html#filepos3620887">Section 14.5 Subscript Operator</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="135-14.6._increment_and_decrement_operators.html#filepos3630002">Section 14.6 Increment and Decrement Operators</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="136-14.7._member_access_operators.html#filepos3645985">Section 14.7 Member Access Operators</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="137-14.8._functioncall_operator.html#filepos3657799">Section 14.8 Function-Call Operator</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="138-14.9._overloading_conversions_and_operators.html#filepos3713073">Section 14.9 Overloading, Conversions, and Operators</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="139-chapter_summary.html#filepos3773544">Chapter Summary</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="140-defined_terms.html#filepos3775079">Defined Terms</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<p class="calibre14">In <a href="038-chapter_4._expressions.html#filepos995349">Chapter 4</a>, we saw that C++ defines a large number of operators and automatic conversions among the built-in types. These facilities allow programmers to write a rich set of mixed-type expressions.</p><div class="calibre15">&#160;</div>
+<p class="calibre25">C++ lets us define what the operators mean when applied to objects of class type. It also lets us define conversions for class types. Class-type conversions are used like the built-in conversions to implicitly convert an object of one type to another type when needed.</p><div class="calibre22">&#160;</div>
+<p class="calibre14"><a id="filepos3547214"/><span><span class="calibre45"><span class="calibre16">Operator overloading</span></span></span> lets us define the meaning of an operator when applied to operand(s) of a class type. Judicious use of operator overloading can make our programs easier to write and easier to read. As an example, because our original <code class="calibre23"><tt class="calibre23"><span class="calibre24">Sales_item</span></tt></code> class type (&#167; <a href="015-1.5._introducing_classes.html#filepos222335">1.5.1</a>, p. <a href="015-1.5._introducing_classes.html#filepos222335">20</a>) defined the input, output, and addition operators, we can print the sum of two <code class="calibre23"><tt class="calibre23"><span class="calibre24">Sales_item</span></tt></code>s as</p><div class="calibre15">&#160;</div>
+<p class="calibre40"><span class="calibre41"><span class="calibre5"/></span></p><div class="calibre38">&#160;</div>
+<blockquote class="calibre13"><p class="calibre31"><tt class="calibre23"><span class="calibre24">cout &lt;&lt; item1 + item2;&#160;&#160;// <span><span class="calibre45"><span class="calibre16">print the sum of two</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">Sales_item</span></span></tt></span><span><span class="calibre45"><span class="calibre16">s</span></span></span></span></tt></p></blockquote><div class="calibre22">&#160;</div>
+<p class="calibre14">In contrast, because our <code class="calibre23"><tt class="calibre23"><span class="calibre24">Sales_data</span></tt></code> class (&#167; <a href="073-7.1._defining_abstract_data_types.html#filepos1745423">7.1</a>, p. <a href="073-7.1._defining_abstract_data_types.html#filepos1745423">254</a>) does not yet have overloaded operators, code to print their sum is more verbose and, hence, less clear:</p><div class="calibre15">&#160;</div>
+<p class="calibre40"><span class="calibre41"><span class="calibre5"/></span></p><div class="calibre38">&#160;</div>
+<blockquote class="calibre13"><p class="calibre31"><tt class="calibre23"><span class="calibre24">print(cout, add(data1, data2));&#160;&#160;// <span><span class="calibre45"><span class="calibre16">print the sum of two</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">Sales_data</span></span></tt></span><span><span class="calibre45"><span class="calibre16">s</span></span></span></span></tt></p></blockquote><div class="calibre22">&#160;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="128-defined_terms.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="130-14.1._basic_concepts.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table></body></html>

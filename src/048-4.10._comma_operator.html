@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>4.10. Comma Operator</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="page_styles.css" type="text/css" rel="stylesheet"/>
+</head>
+  <body class="calibre">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="047-4.9._the_sizeof_operator.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="049-4.11._type_conversions.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table><h3 id="filepos1151213" class="calibre29"><span class="bold">4.10. Comma Operator</span></h3><div class="calibre12">&#160;</div>
+<p class="calibre14">The <strong class="calibre5">comma operator</strong> takes two operands, which it evaluates from left to right. Like the logical <small class="calibre48">AND</small> and logical <small class="calibre48">OR</small> and the conditional operator, the comma operator guarantees the order in which its operands are evaluated.</p><div class="calibre15">&#160;</div>
+<div class="calibre42"><blockquote class="calibre26"><a id="filepos1151659"/><hr class="calibre34"/><blockquote class="calibre13"><p class="calibre43"><span class="calibre5">Exercises Section 4.9</span></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre13"><p class="calibre44"><a/><strong class="calibre5">Exercise 4.28:</strong> Write a program to print the size of each of the built-in types.</p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre13"><p class="calibre44"><a/><strong class="calibre5">Exercise 4.29:</strong> Predict the output of the following code and explain your reasoning. Now run the program. Is the output what you expected? If not, figure out why.</p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre40"><span class="calibre41"><span class="calibre5"/></span></p><div class="calibre38">&#160;</div>
+<blockquote class="calibre13"><p class="calibre31"><tt class="calibre23"><span class="calibre24">int x[10];&#160;&#160;&#160;int *p = x;<br class="calibre6"/>cout &lt;&lt; sizeof(x)/sizeof(*x) &lt;&lt; endl;<br class="calibre6"/>cout &lt;&lt; sizeof(p)/sizeof(*p) &lt;&lt; endl;</span></tt></p></blockquote><div class="calibre22">&#160;</div>
+<blockquote class="calibre13"><p class="calibre44"><a/><strong class="calibre5">Exercise 4.30:</strong> Using Table 4.12 (p. <a href="050-4.12._operator_precedence_table.html#filepos1211317">166</a>), parenthesize the following expressions to match the default evaluation:</p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre53"><strong class="calibre5">(a)</strong>
+<code class="calibre23"><tt class="calibre23"><span class="calibre24">sizeof x + y</span></tt></code></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre26"><p class="calibre53"><strong class="calibre5">(b)</strong>
+<code class="calibre23"><tt class="calibre23"><span class="calibre24">sizeof p-&gt;mem[i]</span></tt></code></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre26"><p class="calibre53"><strong class="calibre5">(c)</strong>
+<code class="calibre23"><tt class="calibre23"><span class="calibre24">sizeof a &lt; b</span></tt></code></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre26"><p class="calibre53"><strong class="calibre5">(d)</strong>
+<code class="calibre23"><tt class="calibre23"><span class="calibre24">sizeof f()</span></tt></code></p></blockquote><div class="calibre15">&#160;</div>
+<hr class="calibre34"/></blockquote></div><div class="calibre3">&#160;</div>
+<p class="calibre25">The left-hand expression is evaluated and its result is discarded. The result of a comma expression is the value of its right-hand expression. The result is an lvalue if the right-hand operand is an lvalue.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">One common use for the comma operator is in a <code class="calibre23"><tt class="calibre23"><span class="calibre24">for</span></tt></code> loop:</p><div class="calibre22">&#160;</div>
+<p class="calibre40"><span class="calibre41"><span class="calibre5"/></span></p><div class="calibre38">&#160;</div>
+<blockquote class="calibre13"><p class="calibre31"><tt class="calibre23"><span class="calibre24">vector&lt;int&gt;::size_type cnt = ivec.size();<br class="calibre6"/>// <span><span class="calibre45"><span class="calibre16">assign values from</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">size</span></span></tt></span><span><span class="calibre45"><span class="calibre16">...</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">1</span></span></tt></span>
+<span><span class="calibre45"><span class="calibre16">to the elements in</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">ivec</span></span></tt></span><br class="calibre6"/>for(vector&lt;int&gt;::size_type ix = 0;<br class="calibre6"/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ix != ivec.size(); ++ix, --cnt)<br class="calibre6"/>&#160;&#160;&#160;&#160;ivec[ix] = cnt;</span></tt></p></blockquote><div class="calibre22">&#160;</div>
+<p class="calibre14">This loop increments <code class="calibre23"><tt class="calibre23"><span class="calibre24">ix</span></tt></code> and decrements <code class="calibre23"><tt class="calibre23"><span class="calibre24">cnt</span></tt></code> in the expression in the <code class="calibre23"><tt class="calibre23"><span class="calibre24">for</span></tt></code> header. Both <code class="calibre23"><tt class="calibre23"><span class="calibre24">ix</span></tt></code> and <code class="calibre23"><tt class="calibre23"><span class="calibre24">cnt</span></tt></code> are changed on each trip through the loop. As long as the test of <code class="calibre23"><tt class="calibre23"><span class="calibre24">ix</span></tt></code> succeeds, we reset the next element to the current value of <code class="calibre23"><tt class="calibre23"><span class="calibre24">cnt</span></tt></code>.</p><div class="calibre15">&#160;</div>
+<div class="calibre42"><blockquote class="calibre26"><hr class="calibre34"/><blockquote class="calibre13"><p class="calibre43"><span class="calibre5">Exercises Section 4.10</span></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre13"><p class="calibre44"><a/><strong class="calibre5">Exercise 4.31:</strong> The program in this section used the prefix increment and decrement operators. Explain why we used prefix and not postfix. What changes would have to be made to use the postfix versions? Rewrite the program using postfix operators.</p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre13"><p class="calibre44"><a/><strong class="calibre5">Exercise 4.32:</strong> Explain the following loop.</p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre40"><span class="calibre41"><span class="calibre5"/></span></p><div class="calibre38">&#160;</div>
+<blockquote class="calibre13"><p class="calibre31"><tt class="calibre23"><span class="calibre24">constexpr int size = 5;<br class="calibre6"/>int ia[size] = {1,2,3,4,5};<br class="calibre6"/>for (int *ptr = ia, ix = 0;<br class="calibre6"/>&#160;&#160;&#160;&#160;&#160;ix != size &amp;&amp; ptr != ia+size;<br class="calibre6"/>&#160;&#160;&#160;&#160;&#160;++ix, ++ptr)&#160;&#160;&#160;{ /* <span><span class="calibre45"><span class="calibre16">...</span></span></span>&#160;&#160;&#160;*/ }</span></tt></p></blockquote><div class="calibre22">&#160;</div>
+<blockquote class="calibre13"><p class="calibre44"><a/><strong class="calibre5">Exercise 4.33:</strong> Using Table 4.12 (p. <a href="050-4.12._operator_precedence_table.html#filepos1211317">166</a>) explain what the following expression does:</p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre40"><span class="calibre41"><span class="calibre5"/></span></p><div class="calibre38">&#160;</div>
+<blockquote class="calibre13"><p class="calibre31"><tt class="calibre23"><span class="calibre24">someValue ? ++x, ++y : --x, --y</span></tt></p></blockquote><div class="calibre22">&#160;</div>
+<hr class="calibre34"/></blockquote></div><div class="calibre3">&#160;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="047-4.9._the_sizeof_operator.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="049-4.11._type_conversions.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table></body></html>

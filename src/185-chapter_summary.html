@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Chapter Summary</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="page_styles.css" type="text/css" rel="stylesheet"/>
+</head>
+  <body class="calibre">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="184-19.8._inherently_nonportable_features.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="186-defined_terms.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table><h3 id="filepos5395442" class="calibre29"><span class="bold"><a id="filepos5395475" class="calibre2"/>Chapter Summary</span></h3><div class="calibre12">&#160;</div>
+<p class="calibre14">C++ provides several specialized facilities that are tailored to particular kinds of problems.</p><div class="calibre15">&#160;</div>
+<p class="calibre25">Some applications need to take control of how memory is allocated. They can do so by defining their own versions&#8212;either class specific or global&#8212;of the library <code class="calibre23"><tt class="calibre23"><span class="calibre24">operator new</span></tt></code> and <code class="calibre23"><tt class="calibre23"><span class="calibre24">operator delete</span></tt></code> functions. If the application defines its own versions of these functions, <code class="calibre23"><tt class="calibre23"><span class="calibre24">new</span></tt></code> and <code class="calibre23"><tt class="calibre23"><span class="calibre24">delete</span></tt></code> expressions will use the application-defined version.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">Some programs need to directly interrogate the dynamic type of an object at run time. Run-time type identification (RTTI) provides language-level support for this kind of programming. RTTI applies only to classes that define virtual functions; type information for types that do not define virtual functions is available but reflects the static type.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">When we define a pointer to a class member, the pointer type also encapsulates the type of the class containing the member to which the pointer points. A pointer to member may be bound to any member of the class that has the appropriate type. When we dereference a pointer to member, we must supply an object from which to fetch the member.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">C++ defines several additional aggregate types:</p><div class="calibre22">&#160;</div>
+<blockquote class="calibre26"><p class="calibre27">&#8226; Nested classes, which are classes defined in the scope of another class. Such classes are often defined as implementation classes of their enclosing class.</p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre26"><p class="calibre27">&#8226; <code class="calibre23"><tt class="calibre23"><span class="calibre24">union</span></tt></code>s are a special kind of class that may define several data members, but at any point in time, only one member may have a value. <code class="calibre23"><tt class="calibre23"><span class="calibre24">union</span></tt></code>s are most often nested inside another class type.</p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre26"><p class="calibre27">&#8226; Local classes, which are defined inside a function. All members of a local class must be defined in the class body. There are no <code class="calibre23"><tt class="calibre23"><span class="calibre24">static</span></tt></code> data members of a local class.</p></blockquote><div class="calibre15">&#160;</div>
+<p class="calibre25">C++ also supports several inherently nonportable features, including bit-fields and <code class="calibre23"><tt class="calibre23"><span class="calibre24">volatile</span></tt></code>, which make it easier to interface to hardware, and linkage directives, which make it easier to interface to programs written in other languages.</p><div class="calibre22">&#160;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="184-19.8._inherently_nonportable_features.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="186-defined_terms.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table></body></html>

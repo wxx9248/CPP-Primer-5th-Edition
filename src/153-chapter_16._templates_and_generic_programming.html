@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Chapter 16. Templates and Generic Programming</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="page_styles.css" type="text/css" rel="stylesheet"/>
+</head>
+  <body class="calibre">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="152-defined_terms.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="154-16.1._defining_a_template.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table><h2 id="filepos4150078" class="calibre19"><span class="bold"><a class="calibre2"/>Chapter 16. Templates and Generic Programming</span></h2><div class="calibre20">&#160;</div>
+<p class="calibre14"><span class="calibre5">Contents</span></p><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="154-16.1._defining_a_template.html#filepos4153781">Section 16.1 Defining a Template</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="155-16.2._template_argument_deduction.html#filepos4324217">Section 16.2 Template Argument Deduction</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="156-16.3._overloading_and_templates.html#filepos4436613">Section 16.3 Overloading and Templates</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="157-16.4._variadic_templates.html#filepos4464798">Section 16.4 Variadic Templates</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="158-16.5._template_specializations.html#filepos4508634">Section 16.5 Template Specializations</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="159-chapter_summary.html#filepos4547083">Chapter Summary</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="160-defined_terms.html#filepos4548885">Defined Terms</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<p class="calibre14">Both object-oriented programming (OOP) and generic programming deal with types that are not known at the time the program is written. The distinction between the two is that OOP deals with types that are not known until run time, whereas in generic programming the types become known during compilation.</p><div class="calibre15">&#160;</div>
+<p class="calibre25">The containers, iterators, and algorithms described in <a href="081-part_ii_the_cpp_library.html#filepos2066884">Part II</a> are all examples of generic programming. When we write a generic program, we write the code in a way that is independent of any particular type. When we use a generic program, we supply the type(s) or value(s) on which that instance of the program will operate.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">For example, the library provides a single, generic definition of each container, such as <code class="calibre23"><tt class="calibre23"><span class="calibre24">vector</span></tt></code>. We can use that generic definition to define many different types of <code class="calibre23"><tt class="calibre23"><span class="calibre24">vector</span></tt></code>s, each of which differs from the others as to the type of elements the <code class="calibre23"><tt class="calibre23"><span class="calibre24">vector</span></tt></code> contains.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">Templates are the foundation of generic programming. We can use and have used templates without understanding how they are defined. In this chapter we&#8217;ll see how to define our own templates.</p><div class="calibre22">&#160;</div>
+<p class="calibre14"><a id="filepos4153086"/><em class="calibre16">Templates</em> are the foundation for generic programming in C++. A template is a blueprint or formula for creating classes or functions. When we use a generic type, such as <code class="calibre23"><tt class="calibre23"><span class="calibre24">vector</span></tt></code>, or a generic function, such as <code class="calibre23"><tt class="calibre23"><span class="calibre24">find</span></tt></code>, we supply the information needed to transform that blueprint into a specific class or function. That transformation happens during compilation. In <a href="029-chapter_3._strings_vectors_and_arrays.html#filepos633734">Chapter 3</a> and <a href="081-part_ii_the_cpp_library.html#filepos2066884">Part II</a> we learned how to use templates. In this chapter we&#8217;ll learn how to define them.</p><div class="calibre15">&#160;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="152-defined_terms.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="154-16.1._defining_a_template.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table></body></html>

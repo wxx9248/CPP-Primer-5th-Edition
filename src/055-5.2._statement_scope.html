@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>5.2. Statement Scope</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="page_styles.css" type="text/css" rel="stylesheet"/>
+</head>
+  <body class="calibre">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="054-5.1._simple_statements.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="056-5.3._conditional_statements.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table><h3 id="filepos1244991" class="calibre29"><span class="bold">5.2. Statement Scope</span></h3><div class="calibre12">&#160;</div>
+<p class="calibre14">We can define variables inside the control structure of the <code class="calibre23"><tt class="calibre23"><span class="calibre24">if</span></tt></code>, <code class="calibre23"><tt class="calibre23"><span class="calibre24">switch</span></tt></code>, <code class="calibre23"><tt class="calibre23"><span class="calibre24">while</span></tt></code>, and <code class="calibre23"><tt class="calibre23"><span class="calibre24">for</span></tt></code> statements. Variables defined in the control structure are visible only within that statement and are out of scope after the statement ends:</p><div class="calibre15">&#160;</div>
+<p class="calibre40"><span class="calibre41"><span class="calibre5"/></span></p><div class="calibre38">&#160;</div>
+<blockquote class="calibre13"><p class="calibre31"><tt class="calibre23"><span class="calibre24">while (int i = get_num()) // <span><tt class="calibre23"><span class="calibre46"><span class="calibre16">i</span></span></tt></span>
+<span><span class="calibre45"><span class="calibre16">is created and initialized on each iteration</span></span></span><br class="calibre6"/>&#160;&#160;&#160;&#160;cout &lt;&lt; i &lt;&lt; endl;<br class="calibre6"/>i = 0;&#160;&#160;// <span><span class="calibre45"><span class="calibre16">error:</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">i</span></span></tt></span>
+<span><span class="calibre45"><span class="calibre16">is not accessible outside the loop</span></span></span></span></tt></p></blockquote><div class="calibre22">&#160;</div>
+<p class="calibre14">If we need access to the control variable, then that variable must be defined outside the statement:</p><div class="calibre15">&#160;</div>
+<p class="calibre40"><span class="calibre41"><span class="calibre5"/></span></p><div class="calibre38">&#160;</div>
+<blockquote class="calibre13"><p class="calibre31"><tt class="calibre23"><span class="calibre24">// <span><span class="calibre45"><span class="calibre16">find the first negative element</span></span></span><br class="calibre6"/>auto beg = v.begin();<br class="calibre6"/>while (beg != v.end() &amp;&amp; *beg &gt;= 0)<br class="calibre6"/>&#160;&#160;&#160;&#160;++beg;<br class="calibre6"/>if (beg == v.end())<br class="calibre6"/>&#160;&#160;&#160;&#160;// <span><span class="calibre45"><span class="calibre16">we know that all elements in</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">v</span></span></tt></span>
+<span><span class="calibre45"><span class="calibre16">are greater than or equal to zero</span></span></span></span></tt></p></blockquote><div class="calibre22">&#160;</div>
+<p class="calibre25">The value of an object defined in a control structure is used by that structure. Therefore, such variables must be initialized.</p><div class="calibre22">&#160;</div>
+<div class="calibre42"><blockquote class="calibre26"><hr class="calibre34"/><blockquote class="calibre13"><p class="calibre43"><span class="calibre5">Exercises Section 5.2</span></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre13"><p class="calibre44"><a/><strong class="calibre5">Exercise 5.4:</strong> Explain each of the following examples, and correct any problems you detect.</p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre53"><strong class="calibre5">(a)</strong>
+<code class="calibre23"><tt class="calibre23"><span class="calibre24">while (string::iterator iter != s.end()) { /*</span></tt></code>
+<span><span class="calibre45"><span class="calibre16">. . .</span></span></span>
+<code class="calibre23"><tt class="calibre23"><span class="calibre24">*/ }</span></tt></code></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre26"><p class="calibre53"><strong class="calibre5">(b)</strong>
+<code class="calibre23"><tt class="calibre23"><span class="calibre24">while (bool status = find(word)) { /*</span></tt></code>
+<span><span class="calibre45"><span class="calibre16">. . .</span></span></span>
+<code class="calibre23"><tt class="calibre23"><span class="calibre24">*/ }</span></tt></code></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><code class="calibre23"><tt class="calibre23"><span class="calibre24">if (!status) { /*</span></tt></code>
+<span><span class="calibre45"><span class="calibre16">. . .</span></span></span>
+<code class="calibre23"><tt class="calibre23"><span class="calibre24">*/ }</span></tt></code></p></blockquote><div class="calibre15">&#160;</div>
+<hr class="calibre34"/></blockquote></div><div class="calibre3">&#160;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="054-5.1._simple_statements.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="056-5.3._conditional_statements.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table></body></html>

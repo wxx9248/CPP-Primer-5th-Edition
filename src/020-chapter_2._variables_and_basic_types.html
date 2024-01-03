@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Chapter 2. Variables and Basic Types</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="page_styles.css" type="text/css" rel="stylesheet"/>
+</head>
+  <body class="calibre">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="019-part_i_the_basics.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="021-2.1._primitive_builtin_types.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table><h2 id="filepos284544" class="calibre19"><span class="bold"><a class="calibre2"/>Chapter 2. Variables and Basic Types</span></h2><div class="calibre20">&#160;</div>
+<p class="calibre14"><span class="calibre5">Contents</span></p><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="021-2.1._primitive_builtin_types.html#filepos288112">Section 2.1 Primitive Built-in Types</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="022-2.2._variables.html#filepos350076">Section 2.2 Variables</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="023-2.3._compound_types.html#filepos394806">Section 2.3 Compound Types</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="024-2.4._const_qualifier.html#filepos462256">Section 2.4 <code class="calibre23"><tt class="calibre23"><span class="calibre24"><span><tt class="calibre23"><span class="calibre32"><span class="calibre5">const</span></span></tt></span></span></tt></code> Qualifier</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="025-2.5._dealing_with_types.html#filepos535463">Section 2.5 Dealing with Types</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="026-2.6._defining_our_own_data_structures.html#filepos576488">Section 2.6 Defining Our Own Data Structures</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="027-chapter_summary.html#filepos610229">Chapter Summary</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre14"><strong class="calibre5"><a href="028-defined_terms.html#filepos611642">Defined Terms</a></strong></p></blockquote><div class="calibre15">&#160;</div>
+<p class="calibre14">Types are fundamental to any program: They tell us what our data mean and what operations we can perform on those data.</p><div class="calibre15">&#160;</div>
+<p class="calibre25">C++ has extensive support for types. The language defines several primitive types (characters, integers, floating-point numbers, etc.) and provides mechanisms that let us define our own data types. The library uses these mechanisms to define more complicated types such as variable-length character strings, vectors, and so on. This chapter covers the built-in types and begins our coverage of how C++ supports more complicated types.</p><div class="calibre22">&#160;</div>
+<p class="calibre14"><a id="filepos286944"/><em class="calibre16">Types determine</em> the meaning of the data and operations in our programs. The meaning of even as simple a statement as</p><div class="calibre15">&#160;</div>
+<blockquote class="calibre13"><p class="calibre31"><tt class="calibre23"><span class="calibre24">i = i + j;</span></tt></p></blockquote><div class="calibre22">&#160;</div>
+<p class="calibre14">depends on the types of <code class="calibre23"><tt class="calibre23"><span class="calibre24">i</span></tt></code> and <code class="calibre23"><tt class="calibre23"><span class="calibre24">j</span></tt></code>. If <code class="calibre23"><tt class="calibre23"><span class="calibre24">i</span></tt></code> and <code class="calibre23"><tt class="calibre23"><span class="calibre24">j</span></tt></code> are integers, this statement has the ordinary, arithmetic meaning of <code class="calibre23"><tt class="calibre23"><span class="calibre24">+</span></tt></code>. However, if <code class="calibre23"><tt class="calibre23"><span class="calibre24">i</span></tt></code> and <code class="calibre23"><tt class="calibre23"><span class="calibre24">j</span></tt></code> are <code class="calibre23"><tt class="calibre23"><span class="calibre24">Sales_item</span></tt></code> objects (&#167; <a href="015-1.5._introducing_classes.html#filepos222335">1.5.1</a>, p. <a href="015-1.5._introducing_classes.html#filepos222335">20</a>), this statement adds the components of these two objects.</p><div class="calibre15">&#160;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="019-part_i_the_basics.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="021-2.1._primitive_builtin_types.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table></body></html>

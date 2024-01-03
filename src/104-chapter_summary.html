@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Chapter Summary</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="page_styles.css" type="text/css" rel="stylesheet"/>
+</head>
+  <body class="calibre">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="103-10.6._containerspecific_algorithms.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="105-defined_terms.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table><h3 id="filepos2707156" class="calibre29"><span class="bold"><a id="filepos2707189" class="calibre2"/>Chapter Summary</span></h3><div class="calibre12">&#160;</div>
+<p class="calibre14">The standard library defines about 100 type-independent algorithms that operate on sequences. Sequences can be elements in a library container type, a built-in array, or generated (for example) by reading or writing to a stream. Algorithms achieve their type independence by operating in terms of iterators. Most algorithms take as their first two arguments a pair of iterators denoting a range of elements. Additional iterator arguments might include an output iterator denoting a destination, or another iterator or iterator pair denoting a second input sequence.</p><div class="calibre15">&#160;</div>
+<p class="calibre25">Iterators are categorized into one of five categories depending on the operations they support. The iterator categories are input, output, forward, bidirectional, and random access. An iterator belongs to a particular category if it supports the operations required for that iterator category.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">Just as iterators are categorized by their operations, iterator parameters to the algorithms are categorized by the iterator operations they require. Algorithms that only read their sequences require only input iterator operations. Those that write to a destination iterator require only the actions of an output iterator, and so on.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">Algorithms <em class="calibre16">never</em> directly change the size of the sequences on which they operate. They may copy elements from one position to another but cannot directly add or remove elements.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">Although algorithms cannot add elements to a sequence, an insert iterator may do so. An insert iterator is bound to a container. When we assign a value of the container&#8217;s element type to an insert iterator, the iterator adds the given element to the container.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">The <code class="calibre23"><tt class="calibre23"><span class="calibre24">forward_list</span></tt></code> and <code class="calibre23"><tt class="calibre23"><span class="calibre24">list</span></tt></code> containers define their own versions of some of the generic algorithms. Unlike the generic algorithms, these list-specific versions modify the given lists.</p><div class="calibre22">&#160;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="103-10.6._containerspecific_algorithms.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="105-defined_terms.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table></body></html>

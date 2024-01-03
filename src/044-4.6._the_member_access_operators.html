@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>4.6. The Member Access Operators</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="page_styles.css" type="text/css" rel="stylesheet"/>
+</head>
+  <body class="calibre">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="043-4.5._increment_and_decrement_operators.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="045-4.7._the_conditional_operator.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table><h3 id="filepos1101794" class="calibre29"><span class="bold">4.6. The Member Access Operators</span></h3><div class="calibre12">&#160;</div>
+<p class="calibre14">The dot (&#167; <a href="015-1.5._introducing_classes.html#filepos237516">1.5.2</a>, p. <a href="015-1.5._introducing_classes.html#filepos237516">23</a>) and arrow (&#167; <a href="033-3.4._introducing_iterators.html#filepos804727">3.4.1</a>, p. <a href="033-3.4._introducing_iterators.html#filepos804727">110</a>) operators provide for member access. The dot operator fetches a member from an object of class type; arrow is defined so that <em class="calibre16">ptr</em><code class="calibre23"><tt class="calibre23"><span class="calibre24">-&gt;</span></tt></code><em class="calibre16">mem</em> is a synonym for <code class="calibre23"><tt class="calibre23"><span class="calibre24">(*</span></tt></code><em class="calibre16">ptr</em><code class="calibre23"><tt class="calibre23"><span class="calibre24">)</span></tt></code>.<em class="calibre16">mem</em>:</p><div class="calibre15">&#160;</div>
+<p class="calibre40"><span class="calibre41"><span class="calibre5"/></span></p><div class="calibre38">&#160;</div>
+<blockquote class="calibre13"><p class="calibre31"><tt class="calibre23"><span class="calibre24">string s1 = "a string", *p = &amp;s1;<br class="calibre6"/>auto n = s1.size(); // <span><span class="calibre45"><span class="calibre16">run the</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">size</span></span></tt></span>
+<span><span class="calibre45"><span class="calibre16">member of the</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">string s1</span></span></tt></span><br class="calibre6"/>n = (*p).size();&#160;&#160;&#160;&#160;// <span><span class="calibre45"><span class="calibre16">run</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">size</span></span></tt></span>
+<span><span class="calibre45"><span class="calibre16">on the object to which</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">p</span></span></tt></span>
+<span><span class="calibre45"><span class="calibre16">points</span></span></span><br class="calibre6"/>n = p-&gt;size();&#160;&#160;&#160;&#160;&#160;&#160;// <span><span class="calibre45"><span class="calibre16">equivalent to</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">(*p).size()</span></span></tt></span></span></tt></p></blockquote><div class="calibre22">&#160;</div>
+<p class="calibre25">Because dereference has a lower precedence than dot, we must parenthesize the dereference subexpression. If we omit the parentheses, this code means something quite different:</p><div class="calibre22">&#160;</div>
+<p class="calibre40"><span class="calibre41"><span class="calibre5"/></span></p><div class="calibre38">&#160;</div>
+<blockquote class="calibre13"><p class="calibre31"><tt class="calibre23"><span class="calibre24">// <span><span class="calibre45"><span class="calibre16">run the</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">size</span></span></tt></span>
+<span><span class="calibre45"><span class="calibre16">member of</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">p</span></span></tt></span>, <span><span class="calibre45"><span class="calibre16">then dereference the result!</span></span></span><br class="calibre6"/>*p.size();&#160;&#160;&#160;&#160;// <span><span class="calibre45"><span class="calibre16">error:</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">p</span></span></tt></span>
+<span><span class="calibre45"><span class="calibre16">is a pointer and has no member named</span></span></span>
+<span><tt class="calibre23"><span class="calibre46"><span class="calibre16">size</span></span></tt></span></span></tt></p></blockquote><div class="calibre22">&#160;</div>
+<p class="calibre14">This expression attempts to fetch the <code class="calibre23"><tt class="calibre23"><span class="calibre24">size</span></tt></code> member of the object <code class="calibre23"><tt class="calibre23"><span class="calibre24">p</span></tt></code>. However, <code class="calibre23"><tt class="calibre23"><span class="calibre24">p</span></tt></code> is a pointer, which has no members; this code will not compile.</p><div class="calibre15">&#160;</div>
+<p class="calibre25">The arrow operator requires a pointer operand and yields an lvalue. The dot operator yields an lvalue if the object from which the member is fetched is an lvalue; otherwise the result is an rvalue.</p><div class="calibre22">&#160;</div>
+<div class="calibre42"><blockquote class="calibre26"><hr class="calibre34"/><blockquote class="calibre13"><p class="calibre43"><span class="calibre5">Exercises Section 4.6</span></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre13"><p class="calibre44"><a/><strong class="calibre5">Exercise 4.20:</strong> Assuming that <code class="calibre23"><tt class="calibre23"><span class="calibre24">iter</span></tt></code> is a <code class="calibre23"><tt class="calibre23"><span class="calibre24">vector&lt;string&gt;::iterator</span></tt></code>, indicate which, if any, of the following expressions are legal. Explain the behavior of the legal expressions and why those that aren&#8217;t legal are in error.</p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre53"><strong class="calibre5">(a)</strong>
+<code class="calibre23"><tt class="calibre23"><span class="calibre24">*iter++;</span></tt></code></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre26"><p class="calibre53"><strong class="calibre5">(b)</strong>
+<code class="calibre23"><tt class="calibre23"><span class="calibre24">(*iter)++;</span></tt></code></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre26"><p class="calibre53"><strong class="calibre5">(c)</strong>
+<code class="calibre23"><tt class="calibre23"><span class="calibre24">*iter.empty()</span></tt></code></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre26"><p class="calibre53"><strong class="calibre5">(d)</strong>
+<code class="calibre23"><tt class="calibre23"><span class="calibre24">iter-&gt;empty();</span></tt></code></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre26"><p class="calibre53"><strong class="calibre5">(e)</strong>
+<code class="calibre23"><tt class="calibre23"><span class="calibre24">++*iter;</span></tt></code></p></blockquote><div class="calibre15">&#160;</div>
+<blockquote class="calibre26"><p class="calibre53"><strong class="calibre5">(f)</strong>
+<code class="calibre23"><tt class="calibre23"><span class="calibre24">iter++-&gt;empty();</span></tt></code></p></blockquote><div class="calibre15">&#160;</div>
+<hr class="calibre34"/></blockquote></div><div class="calibre3">&#160;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="043-4.5._increment_and_decrement_operators.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="045-4.7._the_conditional_operator.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table></body></html>

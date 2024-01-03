@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>What's new in C++11</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="page_styles.css" type="text/css" rel="stylesheet"/>
+</head>
+  <body class="calibre">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="191-index.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="193-symbols.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table><h3 class="calibre29"><span class="bold">What&#8217;s new in C++11</span></h3><div class="calibre12">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">= default</span></tt></code>, <a href="073-7.1._defining_abstract_data_types.html#filepos1815669">265</a>, <a href="121-13.1._copy_assign_and_destroy.html#filepos3257021">506</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">= delete</span></tt></code>, <a href="121-13.1._copy_assign_and_destroy.html#filepos3262148">507</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">allocator</span></tt></code>, <code class="calibre23"><tt class="calibre23"><span class="calibre24">construct</span></tt></code> forwards to any constructor, <a href="115-12.2._dynamic_arrays.html#filepos3127513">482</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">array</span></tt></code> container, <a href="089-9.1._overview_of_the_sequential_containers.html#filepos2177258">327</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">auto</span></tt></code>, <a href="025-2.5._dealing_with_types.html#filepos537903">68</a></p><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">for type abbreviation, <a href="031-3.2._library_string_type.html#filepos674460">88</a>, <a href="035-3.6._multidimensional_arrays.html#filepos962635">129</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">not with dynamic array, <a href="115-12.2._dynamic_arrays.html#filepos3098772">478</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">with dynamic object, <a href="114-12.1._dynamic_memory_and_smart_pointers.html#filepos2963288">459</a></p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">begin</span></tt></code> function, <a href="034-3.5._arrays.html#filepos887176">118</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">bind</span></tt></code> function, <a href="100-10.3._customizing_operations.html#filepos2585437">397</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">bitset</span></tt></code> enhancements, <a href="164-17.2._the_bitset_type.html#filepos4618016">726</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">constexpr</span></tt></code></p><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">constructor, <a href="077-7.5._constructors_revisited.html#filepos2018383">299</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">function, <a href="067-6.5._features_for_specialized_uses.html#filepos1648710">239</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">variable, <a href="024-2.4._const_qualifier.html#filepos523317">66</a></p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre43"><a id="filepos5525349"/>container</p><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61"><code class="calibre23"><tt class="calibre23"><span class="calibre24">cbegin</span></tt></code> and <code class="calibre23"><tt class="calibre23"><span class="calibre24">cend</span></tt></code>, <a href="033-3.4._introducing_iterators.html#filepos823731">109</a>, <a href="090-9.2._container_library_overview.html#filepos2216072">334</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61"><code class="calibre23"><tt class="calibre23"><span class="calibre24">emplace</span></tt></code> members, <a href="091-9.3._sequential_container_operations.html#filepos2282884">345</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61"><code class="calibre23"><tt class="calibre23"><span class="calibre24">insert</span></tt></code> return type, <a href="091-9.3._sequential_container_operations.html#filepos2275648">344</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">nonmember <code class="calibre23"><tt class="calibre23"><span class="calibre24">swap</span></tt></code>, <a href="090-9.2._container_library_overview.html#filepos2245488">339</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">of container, <a href="032-3.3._library_vector_type.html#filepos739629">97</a>, <a href="090-9.2._container_library_overview.html#filepos2189692">329</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61"><code class="calibre23"><tt class="calibre23"><span class="calibre24">shrink_to_fit</span></tt></code>, <a href="092-9.4._how_a_vector_grows.html#filepos2354820">357</a></p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">decltype</span></tt></code>, <a href="025-2.5._dealing_with_types.html#filepos558223">70</a></p><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">function return type, <a href="069-6.7._pointers_to_functions.html#filepos1720652">250</a></p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre43">delegating constructor, <a href="077-7.5._constructors_revisited.html#filepos1968741">291</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43">deleted copy-control, <a href="148-15.7._constructors_and_copy_control.html#filepos3985641">624</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43">division rounding, <a href="040-4.2._arithmetic_operators.html#filepos1037329">141</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">end</span></tt></code> function, <a href="034-3.5._arrays.html#filepos887176">118</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43">enumeration</p><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">controlling representation, <a href="179-19.3._enumerations.html#filepos5212883">834</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">forward declaration, <a href="179-19.3._enumerations.html#filepos5212883">834</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">scoped, <a href="178-19.2._runtime_type_identification.html#filepos5200560">832</a></p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">explicit</span></tt></code> conversion operator, <a href="138-14.9._overloading_conversions_and_operators.html#filepos3725848">582</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43">explicit instantiation, <a href="154-16.1._defining_a_template.html#filepos4300047">675</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">final</span></tt></code> class, <a href="143-15.2._defining_base_and_derived_classes.html#filepos3828987">600</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43">format control for floating-point, <a href="167-17.5._the_io_library_revisited.html#filepos4779185">757</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><a id="filepos5528643"/><code class="calibre23"><tt class="calibre23"><span class="calibre24">forward</span></tt></code> function, <a href="155-16.2._template_argument_deduction.html#filepos4430345">694</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">forward_list</span></tt></code> container, <a href="089-9.1._overview_of_the_sequential_containers.html#filepos2177258">327</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">function</span></tt></code> interface to callable objects, <a href="137-14.8._functioncall_operator.html#filepos3693609">577</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43">in-class initializer, <a href="026-2.6._defining_our_own_data_structures.html#filepos579560">73</a>, <a href="075-7.3._additional_class_features.html#filepos1868141">274</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43">inherited constructor, <a href="148-15.7._constructors_and_copy_control.html#filepos4007500">628</a>, <a href="173-18.3._multiple_and_virtual_inheritance.html#filepos5032290">804</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">initializer_list</span></tt></code>, <a href="064-6.2._argument_passing.html#filepos1533816">220</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43">inline namespace, <a href="172-18.2._namespaces.html#filepos4951703">790</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><a id="filepos5529796"/>lambda expression, <a href="100-10.3._customizing_operations.html#filepos2531609">388</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><a id="filepos5529918"/>list initialization</p><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61"><code class="calibre23"><tt class="calibre23"><span class="calibre24">=</span></tt></code> (assignment), <a href="042-4.4._assignment_operators.html#filepos1067326">145</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">container, <a href="090-9.2._container_library_overview.html#filepos2226365">336</a>, <a href="108-11.2._overview_of_the_associative_containers.html#filepos2739663">423</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">dynamic array, <a href="115-12.2._dynamic_arrays.html#filepos3098772">478</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">dynamic object, <a href="114-12.1._dynamic_memory_and_smart_pointers.html#filepos2963288">459</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61"><code class="calibre23"><tt class="calibre23"><span class="calibre24">pair</span></tt></code>, <a href="109-11.3._operations_on_associative_containers.html#filepos2792631">431</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">return value, <a href="065-6.3._return_types_and_the_return_statement.html#filepos1567946">226</a>, <a href="108-11.2._overview_of_the_associative_containers.html#filepos2766699">427</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">variable, <a href="022-2.2._variables.html#filepos358328">43</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61"><code class="calibre23"><tt class="calibre23"><span class="calibre24">vector</span></tt></code>, <a href="032-3.3._library_vector_type.html#filepos749603">98</a></p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">long long</span></tt></code>, <a href="021-2.1._primitive_builtin_types.html#filepos290839">33</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">mem_fn</span></tt></code> function, <a href="180-19.4._pointer_to_class_member.html#filepos5276101">843</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><a id="filepos5531677"/><code class="calibre23"><tt class="calibre23"><span class="calibre24">move</span></tt></code> function, <a href="126-13.6._moving_objects.html#filepos3433996">533</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43">move avoids copies, <a href="125-13.5._classes_that_manage_dynamic_memory.html#filepos3408459">529</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><a id="filepos5531973"/>move constructor, <a href="126-13.6._moving_objects.html#filepos3439682">534</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43">move iterator, <a href="126-13.6._moving_objects.html#filepos3494424">543</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43">move-enabled <code class="calibre23"><tt class="calibre23"><span class="calibre24">this</span></tt></code> pointer, <a href="126-13.6._moving_objects.html#filepos3512820">546</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">noexcept</span></tt></code></p><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">exception specification, <a href="126-13.6._moving_objects.html#filepos3444873">535</a>, <a href="171-18.1._exception_handling.html#filepos4894536">779</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">operator, <a href="171-18.1._exception_handling.html#filepos4900567">780</a></p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">nullptr</span></tt></code>, <a href="023-2.3._compound_types.html#filepos424456">54</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43">random-number library, <a href="166-17.4._random_numbers.html#filepos4713562">745</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43">range <code class="calibre23"><tt class="calibre23"><span class="calibre24">for</span></tt></code> statement, <a href="031-3.2._library_string_type.html#filepos698573">91</a>, <a href="057-5.4._iterative_statements.html#filepos1327423">187</a></p><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">not with dynamic array, <a href="115-12.2._dynamic_arrays.html#filepos3090569">477</a></p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre43"><a id="filepos5533477"/>regular expression-library, <a href="164-17.2._the_bitset_type.html#filepos4630955">728</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><a id="filepos5533608"/>rvalue reference, <a href="126-13.6._moving_objects.html#filepos3428100">532</a></p><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">cast from lvalue, <a href="155-16.2._template_argument_deduction.html#filepos4408477">691</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">reference collapsing, <a href="155-16.2._template_argument_deduction.html#filepos4383510">688</a></p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">sizeof</span></tt></code> data member, <a href="047-4.9._the_sizeof_operator.html#filepos1144067">157</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">sizeof...</span></tt></code> operator, <a href="157-16.4._variadic_templates.html#filepos4465473">700</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><a/>smart pointer, <a href="113-chapter_12._dynamic_memory.html#filepos2902740">450</a></p><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61"><code class="calibre23"><tt class="calibre23"><span class="calibre24">shared_ptr</span></tt></code>, <a href="113-chapter_12._dynamic_memory.html#filepos2902740">450</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61"><code class="calibre23"><tt class="calibre23"><span class="calibre24">unique_ptr</span></tt></code>, <a href="114-12.1._dynamic_memory_and_smart_pointers.html#filepos3040268">470</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61"><code class="calibre23"><tt class="calibre23"><span class="calibre24">weak_ptr</span></tt></code>, <a href="114-12.1._dynamic_memory_and_smart_pointers.html#filepos3062354">473</a></p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">string</span></tt></code></p><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">numeric conversions, <a href="093-9.5._additional_string_operations.html#filepos2415800">367</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">parameter with IO types, <a href="084-8.2._file_input_and_output.html#filepos2114945">317</a></p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre43">template</p><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">function template default template argument, <a href="154-16.1._defining_a_template.html#filepos4268006">670</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">type alias, <a href="154-16.1._defining_a_template.html#filepos4240095">666</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">type parameter as friend, <a href="154-16.1._defining_a_template.html#filepos4240095">666</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">variadic, <a href="156-16.3._overloading_and_templates.html#filepos4460209">699</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">varidadics and forwarding, <a href="157-16.4._variadic_templates.html#filepos4489246">704</a></p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre43">trailing return type, <a href="065-6.3._return_types_and_the_return_statement.html#filepos1584269">229</a></p><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">in function template, <a href="155-16.2._template_argument_deduction.html#filepos4356678">684</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61">in lambda expression, <a href="100-10.3._customizing_operations.html#filepos2579056">396</a></p></blockquote><div class="calibre10">&#160;</div>
+<p class="calibre43"><code class="calibre23"><tt class="calibre23"><span class="calibre24">tuple</span></tt></code>, <a href="162-chapter_17._specialized_library_facilities.html#filepos4565715">718</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><a id="filepos5536871"/>type alias declaration, <a href="025-2.5._dealing_with_types.html#filepos537903">68</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43">union member of class type, <a href="182-19.6._union_a_spacesaving_class.html#filepos5311636">848</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><a id="filepos5537120"/>unordered containers, <a href="109-11.3._operations_on_associative_containers.html#filepos2868525">443</a></p><div class="calibre10">&#160;</div>
+<p class="calibre43"><a id="filepos5537245"/>virtual function</p><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61"><code class="calibre23"><tt class="calibre23"><span class="calibre24">final</span></tt></code>, <a href="144-15.3._virtual_functions.html#filepos3865666">606</a></p></blockquote><div class="calibre10">&#160;</div>
+<blockquote class="calibre26"><p class="calibre61"><code class="calibre23"><tt class="calibre23"><span class="calibre24">override</span></tt></code>, <a href="143-15.2._defining_base_and_derived_classes.html#filepos3806063">596</a>, <a href="144-15.3._virtual_functions.html#filepos3865666">606</a></p></blockquote><div class="calibre10">&#160;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="191-index.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="193-symbols.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table></body></html>

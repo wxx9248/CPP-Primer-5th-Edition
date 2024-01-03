@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-rc.32"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.3.67"
+  },
+  "type": "module"
+}

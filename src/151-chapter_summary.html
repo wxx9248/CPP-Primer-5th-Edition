@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Chapter Summary</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="page_styles.css" type="text/css" rel="stylesheet"/>
+</head>
+  <body class="calibre">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="150-15.9._text_queries_revisited.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="152-defined_terms.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table><h3 id="filepos4137640" class="calibre29"><span class="bold"><a id="filepos4137673" class="calibre2"/>Chapter Summary</span></h3><div class="calibre12">&#160;</div>
+<p class="calibre14">Inheritance lets us write new classes that share behavior with their base class(es) but override or add to that behavior as needed. Dynamic binding lets us ignore type differences by choosing, at run time, which version of a function to run based on an object&#8217;s dynamic type. The combination of inheritance and dynamic binding lets us write type-independent, programs that have type-specific behavior.</p><div class="calibre15">&#160;</div>
+<p class="calibre25">In C++, dynamic binding applies <em class="calibre16">only</em> to functions declared as <code class="calibre23"><tt class="calibre23"><span class="calibre24">virtual</span></tt></code> and called through a reference or pointer.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">A derived-class object contains a subobject corresponding to each of its base classes. Because every derived object contains a base part, we can convert a reference or pointer to a derived-class type to a reference or pointer to an accessible base class.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">Inherited objects are constructed, copied, moved, and assigned by constructing, copying, moving, and assigning the base part(s) of the object before handling the derived part. Destructors execute in the opposite order; the derived type is destroyed first, followed by destructors for the base-class subobjects. Base classes usually should define a virtual destructor even if the class otherwise has no need for a destructor. The destructor must be virtual if a pointer to a base is ever deleted when it actually addresses a derived-class object.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">A derived class specifies a protection level for each of its base class(es). Members of a <code class="calibre23"><tt class="calibre23"><span class="calibre24">public</span></tt></code> base are part of the interface of the derived class; members of a <code class="calibre23"><tt class="calibre23"><span class="calibre24">private</span></tt></code> base are inaccessible; members of a <code class="calibre23"><tt class="calibre23"><span class="calibre24">protected</span></tt></code> base are accessible to classes that derive from the derived class but not to users of the derived class.</p><div class="calibre22">&#160;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="150-15.9._text_queries_revisited.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="152-defined_terms.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table></body></html>

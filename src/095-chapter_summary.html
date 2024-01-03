@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Chapter Summary</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="page_styles.css" type="text/css" rel="stylesheet"/>
+</head>
+  <body class="calibre">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="094-9.6._container_adaptors.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="096-defined_terms.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table><h3 id="filepos2442334" class="calibre29"><span class="bold"><a id="filepos2442367" class="calibre2"/>Chapter Summary</span></h3><div class="calibre12">&#160;</div>
+<p class="calibre14">The library containers are template types that holds objects of a given type. In a sequential container, elements are ordered and accessed by position. The sequential containers share a common, standardized interface: If two sequential containers offer a particular operation, then the operation has the same interface and meaning for both containers.</p><div class="calibre15">&#160;</div>
+<p class="calibre25">All the containers (except <code class="calibre23"><tt class="calibre23"><span class="calibre24">array</span></tt></code>) provide efficient dynamic memory management. We may add elements to the container without worrying about where to store the elements. The container itself manages its storage. Both <code class="calibre23"><tt class="calibre23"><span class="calibre24">vector</span></tt></code> and <code class="calibre23"><tt class="calibre23"><span class="calibre24">string</span></tt></code> provide more detailed control over memory management through their <code class="calibre23"><tt class="calibre23"><span class="calibre24">reserve</span></tt></code> and <code class="calibre23"><tt class="calibre23"><span class="calibre24">capacity</span></tt></code> members.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">For the most part, the containers define surprisingly few operations. Containers define constructors, operations to add or remove elements, operations to determine the size of the container, and operations to return iterators to particular elements. Other useful operations, such as sorting or searching, are defined not by the container types but by the standard algorithms, which we shall cover in <a href="097-chapter_10._generic_algorithms.html#filepos2454824">Chapter 10</a>.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">When we use container operations that add or remove elements, it is essential to remember that these operations can invalidate iterators, pointers, or references to elements in the container. Many operations that invalidate an iterator, such as <code class="calibre23"><tt class="calibre23"><span class="calibre24">insert</span></tt></code> or <code class="calibre23"><tt class="calibre23"><span class="calibre24">erase</span></tt></code>, return a new iterator that allows the programmer to maintain a position within the container. Loops that use container operations that change the size of a container should be particularly careful in their use of iterators, pointers, and references.</p><div class="calibre22">&#160;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="094-9.6._container_adaptors.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="096-defined_terms.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table></body></html>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Chapter Summary</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="page_styles.css" type="text/css" rel="stylesheet"/>
+</head>
+  <body class="calibre">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="126-13.6._moving_objects.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="128-defined_terms.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table><h3 id="filepos3533220" class="calibre29"><span class="bold"><a id="filepos3533253" class="calibre2"/>Chapter Summary</span></h3><div class="calibre12">&#160;</div>
+<p class="calibre14">Each class controls what happens when we copy, move, assign, or destroy objects of its type. Special member functions&#8212;the copy constructor, move constructor, copy-assignment operator, move-assignment operator, and destructor&#8212;define these operations. The move constructor and move-assignment operator take a (usually non<code class="calibre23"><tt class="calibre23"><span class="calibre24">const</span></tt></code>) rvalue reference; the copy versions take a (usually <code class="calibre23"><tt class="calibre23"><span class="calibre24">const</span></tt></code>) ordinary lvalue reference.</p><div class="calibre15">&#160;</div>
+<p class="calibre25">If a class declares none of these operations, the compiler will define them automatically. If not defined as deleted, these operations memberwise initialize, move, assign, or destroy the object: Taking each non<code class="calibre23"><tt class="calibre23"><span class="calibre24">static</span></tt></code> data member in turn, the synthesized operation does whatever is appropriate to the member&#8217;s type to move, copy, assign, or destroy that member.</p><div class="calibre22">&#160;</div>
+<p class="calibre25">Classes that allocate memory or other resources almost always require that the class define the copy-control members to manage the allocated resource. If a class needs a destructor, then it almost surely needs to define the move and copy constructors and the move- and copy-assignment operators as well.</p><div class="calibre22">&#160;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><div STYLE="MARGIN-LEFT: 0.15in;"><a href="001-contents.html"><img src="images/teamlib.gif" width="62" height="15" border="0" align="absmiddle"  alt="Team LiB"></a></div></td><td align="right"><div STYLE="MARGIN-LEFT: 0.15in;">
+<a href="126-13.6._moving_objects.html"><img src="images/previous.gif" width="62" height="15" border="0" align="absmiddle" alt="Previous Section"></a>
+<a href="128-defined_terms.html"><img src="images/next.gif" width="41" height="15" border="0" align="absmiddle" alt="Next Section"></a></div></td></tr></table></body></html>
