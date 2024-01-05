@@ -8,6 +8,5 @@
 <p>In addition to static or stack memory, every program also has a pool of memory that it can use. This memory is referred to as the <strong><a href="118-defined_terms.html#filepos3188604" id="filepos2903894">free store</a></strong> or <strong><a href="118-defined_terms.html#filepos3188850" id="filepos2903969">heap</a></strong>. Programs use the heap for objects that they <strong><a href="118-defined_terms.html#filepos3188274" id="filepos2904080">dynamically allocate</a></strong>—that is, for objects that the program allocates at run time. The program controls the lifetime of dynamic objects; our code must explicitly destroy such objects when they are no longer needed.</p>
 
 ::: warning
-<p>Warning</p>
 <p>Although necessary at times, dynamic memory is notoriously tricky to manage correctly.</p>
 :::

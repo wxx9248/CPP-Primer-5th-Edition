@@ -7,6 +7,5 @@
 <p>If a class does not define all of the copy-control members, the compiler automatically defines the missing operations. As a result, many classes can ignore copy control (§ <a href="073-7.1._defining_abstract_data_types.html#filepos1827343">7.1.5</a>, p. <a href="073-7.1._defining_abstract_data_types.html#filepos1827343">267</a>). However, for some classes, relying on the default definitions leads to disaster. Frequently, the hardest part of implementing copy-control operations is recognizing when we need to define them in the first place.</p>
 
 ::: warning
-<p>Warning</p>
 <p>Copy control is an essential part of defining any C++ class. Programmers new to C++ are often confused by having to define what happens when objects are copied, moved, assigned, or destroyed. This confusion is compounded because if we do not explicitly define these operations, the compiler defines them for us—although the compiler-defined versions might not behave as we intend.</p>
 :::
