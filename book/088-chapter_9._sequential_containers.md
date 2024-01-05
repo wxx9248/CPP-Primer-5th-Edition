@@ -7,6 +7,5 @@
 <p>The library also provides three container adaptors, each of which adapts a container type by defining a different interface to the container’s operations. We cover the adaptors at the end of this chapter.</p>
 
 ::: info
-<p>Note</p>
 <p>This chapter builds on the material covered in § <a href="031-3.2._library_string_type.html#filepos649069">3.2</a>, § <a href="032-3.3._library_vector_type.html#filepos736471">3.3</a>, and § <a href="033-3.4._introducing_iterators.html#filepos802543">3.4</a>. We assume that the reader is familiar with the material covered there.</p>
 :::
