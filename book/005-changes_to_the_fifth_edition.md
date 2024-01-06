@@ -1,6 +1,6 @@
 <h3>Changes to the Fifth Edition</h3>
 <p>New to this edition of <em>C++ Primer</em> are icons in the margins to help guide the reader. C++ is a large language that offers capabilities tailored to particular kinds of programming problems. Some of these capabilities are of great import for large project teams but might not be necessary for smaller efforts. As a result, not every programmer needs to know every detail of every feature. We’ve added these marginal icons to help the reader know which parts can be learned later and which topics are more essential.</p>
-<img alt="Image" src="/images/00009.jpg"/>
+<Badge type="info" text="Fundamental" />
 <p>We’ve marked sections that cover the fundamentals of the language with an image of a person studying a book. The topics covered in sections marked this way form the core part of the language. Everyone should read and understand these sections.</p>
 <p>We’ve also indicated those sections that cover advanced or special-purpose topics. These sections can be skipped or skimmed on a first reading. We’ve marked such sections with a stack of books to indicate that you can safely put down the book at that point. It is probably a good idea to skim such sections so you know that the capability exists. However, there is no reason to spend time studying these topics until you actually need to use the feature in your own programs.</p>
 <img alt="Image" src="/images/00010.jpg"/>
