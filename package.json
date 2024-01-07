@@ -5,7 +5,7 @@
     "preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "1.0.0-rc.32"
+    "vitepress": "1.0.0-rc.35"
   },
   "dependencies": {
     "@mdi/font": "^7.3.67"
