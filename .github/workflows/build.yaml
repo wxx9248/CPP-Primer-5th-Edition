@@ -1,0 +1,26 @@
+name: build
+on:
+  pull_request:
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checks-out Repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4.0.1
+        with:
+          node-version: 18
+      - name: Setup pnpm
+        run: |
+          npm install --global pnpm
+      - name: Fetching Node Modules
+        run: |
+          pnpm install
+      - name: Build Distributable
+        run: |
+          pnpm build
