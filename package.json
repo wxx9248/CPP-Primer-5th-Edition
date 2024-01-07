@@ -8,7 +8,7 @@
     "vitepress": "1.0.0-rc.35"
   },
   "dependencies": {
-    "@mdi/font": "^7.3.67"
+    "@mdi/font": "^7.4.47"
   },
   "type": "module"
 }
