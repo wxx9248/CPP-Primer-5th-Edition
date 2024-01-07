@@ -6,5 +6,23 @@
 <p><a id="filepos2720452"></a><em><a href="112-defined_terms.html#filepos2890953" id="filepos2720464">Associative containers</a></em> support efficient lookup and retrieval by a key. The two primary <strong>associative-container</strong> types are <code>map</code> and <code>set</code>. The elements in a <code>map</code> are key–value pairs: The key serves as an index into the <code>map</code>, and the value represents the data associated with that index. A <code>set</code> element contains only a key; a <code>set</code> supports efficient queries as to whether a given key is present. We might use a <code>set</code> to hold words that we want to ignore during some kind of text processing. A dictionary would be a good use for a <code>map</code>: The word would be the key, and its definition would be the value.</p>
 <p>The library provides eight associative containers, listed in <a href="106-chapter_11._associative_containers.html#filepos2723140">Table 11.1</a>. These eight differ along three dimensions: Each container is (1) a <code>set</code> or a <code>map</code>, (2) requires unique keys or allows multiple keys, and (3) stores the elements in order or not. The containers that allow multiple keys include the word <code>multi</code>; those that do not keep their keys ordered start with the word <code>unordered</code>. Hence an <code>unordered_multi_set</code> is a set that allows multiple keys whose elements are not stored in order, whereas a <code>set</code> has unique keys that are stored in order. The unordered containers use a hash function to organize their elements. We’ll have more to say about the hash function in § <a href="110-11.4._the_unordered_containers.html#filepos2872751">11.4</a> (p. <a href="110-11.4._the_unordered_containers.html#filepos2872751">444</a>).</p>
 <p><a id="filepos2723140"></a>Table 11.1. Associative Container Types</p>
-<img alt="Image" src="/images/00080.jpg"/>
+
+**Elements Ordered by Key**
+
+| Data Structure | Description                                  |
+|----------------|----------------------------------------------|
+| `map`          | Associative array; holds key-value pairs     |
+| `set`          | Container in which the key is the value      |
+| `multimap`     | map in which a key can appear multiple times |
+| `multiset`     | set in which a key can appear multiple times |
+
+**Unordered Collections**
+
+| Data Structure       | Description                                |
+|----------------------|--------------------------------------------|
+| `unordered_map`      | map organized by a hash function           |
+| `unordered_set`      | set organized by a hash function           |
+| `unordered_multimap` | Hashed map; keys can appear multiple times |
+| `unordered_multiset` | Hashed set; keys can appear multiple times |
+
 <p>The <code>map</code> and <code>multimap</code> types are defined in the <code>map</code> header; the <code>set</code> and <code>multiset</code> types are in the <code>set</code> header; and the unordered containers are in the <code>unordered_map</code> and <code>unordered_set</code> headers.</p>
