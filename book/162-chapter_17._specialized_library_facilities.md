@@ -1,3 +1,7 @@
+---
+title: Chapter 17. Specialized Library Facilities
+---
+
 <h2 id="filepos4563206">Chapter 17. Specialized Library Facilities</h2>
 <p>Contents</p><ul><li><strong><a href="163-17.1._the_tuple_type.html#filepos4566281">Section 17.1 The <code>tuple</code> Type</a></strong></li><li><strong><a href="164-17.2._the_bitset_type.html#filepos4603212">Section 17.2 The <code>bitset</code> Type</a></strong></li><li><strong><a href="165-17.3._regular_expressions.html#filepos4635323">Section 17.3 Regular Expressions</a></strong></li><li><strong><a href="166-17.4._random_numbers.html#filepos4713529">Section 17.4 Random Numbers</a></strong></li><li><strong><a href="167-17.5._the_io_library_revisited.html#filepos4756189">Section 17.5 The IO Library Revisited</a></strong></li><li><strong><a href="168-chapter_summary.html#filepos4838677">Chapter Summary</a></strong></li><li><strong><a href="169-defined_terms.html#filepos4842336">Defined Terms</a></strong></li></ul>
 

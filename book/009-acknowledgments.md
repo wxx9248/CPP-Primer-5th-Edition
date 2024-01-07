@@ -1,3 +1,7 @@
+---
+title: Acknowledgments
+---
+
 <h3>Acknowledgments</h3>
 <p>In preparing this edition we are very grateful for the help of several current and former members of the standardization committee: Dave Abrahams, Andy Koenig, Stephan T. Lavavej, Jason Merrill, John Spicer, and Herb Sutter. They provided invaluable assistance to us in understanding some of the more subtle parts of the new standard. We’d also like to thank the many folks who worked on updating the GNU compiler making the standard a reality.</p>
 <p>As in previous editions of <em>C++ Primer</em>, we’d like to extend our thanks to Bjarne Stroustrup for his tireless work on C++ and for his friendship to the authors during most of that time. We’d also like to thank Alex Stepanov for his original insights that led to the containers and algorithms at the core of the standard library. Finally, our thanks go to all the C++ Standards committee members for their hard work in clarifying, refining, and improving C++ over many years.</p>

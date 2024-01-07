@@ -1,3 +1,7 @@
+---
+title: Chapter 1. Getting Started
+---
+
 <h2 id="filepos113276">Chapter 1. Getting Started</h2>
 <p>Contents</p><ul><li><strong><a href="011-1.1._writing_a_simple_cpp_program.html#filepos117760">Section 1.1 Writing a Simple C++ Program</a></strong></li><li><strong><a href="012-1.2._a_first_look_at_inputoutput.html#filepos136281">Section 1.2 A First Look at Input/Output</a></strong></li><li><strong><a href="013-1.3._a_word_about_comments.html#filepos157648">Section 1.3 A Word about Comments</a></strong></li><li><strong><a href="014-1.4._flow_of_control.html#filepos166172">Section 1.4 Flow of Control</a></strong></li><li><strong><a href="015-1.5._introducing_classes.html#filepos219539">Section 1.5 Introducing Classes</a></strong></li><li><strong><a href="016-1.6._the_bookstore_program.html#filepos244566">Section 1.6 The Bookstore Program</a></strong></li><li><strong><a href="017-chapter_summary.html#filepos253310">Chapter Summary</a></strong></li><li><strong><a href="018-defined_terms.html#filepos254268">Defined Terms</a></strong></li></ul>
 

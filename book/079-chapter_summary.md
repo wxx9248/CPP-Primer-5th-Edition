@@ -1,3 +1,7 @@
+---
+title: Chapter Summary
+---
+
 <h3 id="filepos2052488"><a id="filepos2052521"></a>Chapter Summary</h3>
 <p>Classes are the most fundamental feature in C++. Classes let us define new types for our applications, making our programs shorter and easier to modify.</p>
 <p>Data abstraction—the ability to define both data and function members—and encapsulation—the ability to protect class members from general access—are fundamental to classes. We encapsulate a class by defining its implementation members as <code>private</code>. Classes may grant access to their non<code>public</code> member by designating another class or function as a friend.</p>

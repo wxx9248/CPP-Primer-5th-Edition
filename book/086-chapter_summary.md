@@ -1,3 +1,7 @@
+---
+title: Chapter Summary
+---
+
 <h3 id="filepos2163240"><a id="filepos2163273"></a>Chapter Summary</h3>
 <p>C++ uses library classes to handle stream-oriented input and output:</p>
 <ul><li>The <code>iostream</code> classes handle IO to console</li><li>The <code>fstream</code> classes handle IO to named files</li><li>The <code>stringstream</code> classes do IO to in-memory <code>string</code>s</li></ul>

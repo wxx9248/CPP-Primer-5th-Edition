@@ -1,3 +1,7 @@
+---
+title: Chapter Summary
+---
+
 <h3 id="filepos1211678"><a id="filepos1211711"></a>Chapter Summary</h3>
 <p>C++ provides a rich set of operators and defines their meaning when applied to values of the built-in types. Additionally, the language supports operator overloading, which allows us to define the meaning of the operators for class types. We’ll see in <a href="129-chapter_14._overloaded_operations_and_conversions.html#filepos3544393">Chapter 14</a> how to define operators for our own types.</p>
 <p>To understand expressions involving more than one operator it is necessary to understand precedence, associativity, and order of operand evaluation. Each operator has a precedence level and associativity. Precedence determines how operators are grouped in a compound expression. Associativity determines how operators at the same precedence level are grouped.</p>

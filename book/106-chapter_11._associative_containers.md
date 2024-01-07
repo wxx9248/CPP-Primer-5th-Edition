@@ -1,3 +1,7 @@
+---
+title: Chapter 11. Associative Containers
+---
+
 <h2 id="filepos2718579">Chapter 11. Associative Containers</h2>
 <p>Contents</p><ul><li><strong><a href="107-11.1._using_an_associative_container.html#filepos2724280">Section 11.1 Using an Associative Container</a></strong></li><li><strong><a href="108-11.2._overview_of_the_associative_containers.html#filepos2739630">Section 11.2 Overview of the Associative Containers</a></strong></li><li><strong><a href="109-11.3._operations_on_associative_containers.html#filepos2776538">Section 11.3 Operations on Associative Containers</a></strong></li><li><strong><a href="110-11.4._the_unordered_containers.html#filepos2872751">Section 11.4 The Unordered Containers</a></strong></li><li><strong><a href="111-chapter_summary.html#filepos2887561">Chapter Summary</a></strong></li><li><strong><a href="112-defined_terms.html#filepos2890511">Defined Terms</a></strong></li></ul>
 

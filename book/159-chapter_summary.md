@@ -1,3 +1,7 @@
+---
+title: Chapter Summary
+---
+
 <h3 id="filepos4547083"><a id="filepos4547116"></a>Chapter Summary</h3>
 <p>Templates are a distinctive feature of C++ and are fundamental to the library. A template is a blueprint that the compiler uses to generate specific class types or functions. This process is called instantiation. We write the template once, and the compiler instantiates the template for the type(s) or value(s) with which we use the template.</p>
 <p>We can define both function templates and class templates. The library algorithms are function templates and the library containers are class templates.</p>

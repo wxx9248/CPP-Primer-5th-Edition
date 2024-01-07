@@ -1,3 +1,7 @@
+---
+title: Chapter 9. Sequential Containers
+---
+
 <h2 id="filepos2171064">Chapter 9. Sequential Containers</h2>
 <p>Contents</p><ul><li><strong><a href="089-9.1._overview_of_the_sequential_containers.html#filepos2175374">Section 9.1 Overview of the Sequential Containers</a></strong></li><li><strong><a href="090-9.2._container_library_overview.html#filepos2188055">Section 9.2 Container Library Overview</a></strong></li><li><strong><a href="091-9.3._sequential_container_operations.html#filepos2263761">Section 9.3 Sequential Container Operations</a></strong></li><li><strong><a href="092-9.4._how_a_vector_grows.html#filepos2347166">Section 9.4 How a <code>vector</code> Grows</a></strong></li><li><strong><a href="093-9.5._additional_string_operations.html#filepos2373261">Section 9.5 Additional <code>string</code> Operations</a></strong></li><li><strong><a href="094-9.6._container_adaptors.html#filepos2426063">Section 9.6 Container Adaptors</a></strong></li><li><strong><a href="095-chapter_summary.html#filepos2442334">Chapter Summary</a></strong></li><li><strong><a href="096-defined_terms.html#filepos2444753">Defined Terms</a></strong></li></ul>
 

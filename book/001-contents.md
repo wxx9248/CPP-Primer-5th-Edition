@@ -1,3 +1,7 @@
+---
+title: Contents
+---
+
 <h2 id="filepos6196">Contents</h2>
 <br/><strong><a href="003-preface.html#filepos96333">Preface</a></strong><br/>
 <br/><strong><a href="010-chapter_1._getting_started.html#filepos113276">Chapter 1 Getting Started</a></strong><br/>

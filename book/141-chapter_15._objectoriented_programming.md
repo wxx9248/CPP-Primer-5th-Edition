@@ -1,3 +1,7 @@
+---
+title: Chapter 15. Object-Oriented Programming
+---
+
 <h2 id="filepos3778984">Chapter 15. Object-Oriented Programming</h2>
 <p>Contents</p><ul><li><strong><a href="142-15.1._oop_an_overview.html#filepos3782427">Section 15.1 OOP: An Overview</a></strong></li><li><strong><a href="143-15.2._defining_base_and_derived_classes.html#filepos3795765">Section 15.2 Defining Base and Derived Classes</a></strong></li><li><strong><a href="144-15.3._virtual_functions.html#filepos3853256">Section 15.3 Virtual Functions</a></strong></li><li><strong><a href="145-15.4._abstract_base_classes.html#filepos3884701">Section 15.4 Abstract Base Classes</a></strong></li><li><strong><a href="146-15.5._access_control_and_inheritance.html#filepos3901534">Section 15.5 Access Control and Inheritance</a></strong></li><li><strong><a href="147-15.6._class_scope_under_inheritance.html#filepos3941072">Section 15.6 Class Scope under Inheritance</a></strong></li><li><strong><a href="148-15.7._constructors_and_copy_control.html#filepos3973987">Section 15.7 Constructors and Copy Control</a></strong></li><li><strong><a href="149-15.8._containers_and_inheritance.html#filepos4017857">Section 15.8 Containers and Inheritance</a></strong></li><li><strong><a href="150-15.9._text_queries_revisited.html#filepos4051570">Section 15.9 Text Queries Revisited</a></strong></li><li><strong><a href="151-chapter_summary.html#filepos4137640">Chapter Summary</a></strong></li><li><strong><a href="152-defined_terms.html#filepos4139953">Defined Terms</a></strong></li></ul>
 

@@ -1,3 +1,7 @@
+---
+title: Symbols
+---
+
 <h3>Symbols</h3>
 <p><code>...</code> (ellipsis parameter), <a href="064-6.2._argument_passing.html#filepos1544813">222</a></p>
 <p><code>/* */</code> (block comment), <strong><a href="012-1.2._a_first_look_at_inputoutput.html#filepos155658">9</a></strong>, <em><a href="017-chapter_summary.html#filepos253343">26</a></em></p>

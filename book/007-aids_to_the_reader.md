@@ -1,3 +1,7 @@
+---
+title: Aids to the Reader
+---
+
 <h3>Aids to the Reader</h3>
 <p>Each chapter concludes with a summary, followed by a glossary of defined terms, which together recap the chapter’s most important points. Readers should use these sections as a personal checklist: If you do not understand a term, restudy the corresponding part of the chapter.</p>
 <p>We’ve also incorporated a number of other learning aids in the body of the text:</p>

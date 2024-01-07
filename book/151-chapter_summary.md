@@ -1,3 +1,7 @@
+---
+title: Chapter Summary
+---
+
 <h3 id="filepos4137640"><a id="filepos4137673"></a>Chapter Summary</h3>
 <p>Inheritance lets us write new classes that share behavior with their base class(es) but override or add to that behavior as needed. Dynamic binding lets us ignore type differences by choosing, at run time, which version of a function to run based on an object’s dynamic type. The combination of inheritance and dynamic binding lets us write type-independent, programs that have type-specific behavior.</p>
 <p>In C++, dynamic binding applies <em>only</em> to functions declared as <code>virtual</code> and called through a reference or pointer.</p>

@@ -5,6 +5,8 @@ export default defineConfig({
     base: "/CPP-Primer-5th-Web-Edition",
     title: "C++ Primer, Fifth Edition",
     description: "C++ Primer, Fifth Edition. Text transcribed by Team LiB.",
+    lang: "en-US",
+
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [

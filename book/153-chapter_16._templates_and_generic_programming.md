@@ -1,3 +1,7 @@
+---
+title: Chapter 16. Templates and Generic Programming
+---
+
 <h2 id="filepos4150078">Chapter 16. Templates and Generic Programming</h2>
 <p>Contents</p><ul><li><strong><a href="154-16.1._defining_a_template.html#filepos4153781">Section 16.1 Defining a Template</a></strong></li><li><strong><a href="155-16.2._template_argument_deduction.html#filepos4324217">Section 16.2 Template Argument Deduction</a></strong></li><li><strong><a href="156-16.3._overloading_and_templates.html#filepos4436613">Section 16.3 Overloading and Templates</a></strong></li><li><strong><a href="157-16.4._variadic_templates.html#filepos4464798">Section 16.4 Variadic Templates</a></strong></li><li><strong><a href="158-16.5._template_specializations.html#filepos4508634">Section 16.5 Template Specializations</a></strong></li><li><strong><a href="159-chapter_summary.html#filepos4547083">Chapter Summary</a></strong></li><li><strong><a href="160-defined_terms.html#filepos4548885">Defined Terms</a></strong></li></ul>
 

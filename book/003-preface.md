@@ -1,3 +1,7 @@
+---
+title: Preface
+---
+
 <h2 id="filepos96333">Preface</h2>
 <p><em>Countless programmers</em> have learned C++ from previous editions of <em>C++ Primer</em>. During that time, C++ has matured greatly: Its focus, and that of its programming community, has widened from looking mostly at <em>machine</em> efficiency to devoting more attention to <em>programmer</em> efficiency.</p>
 <p>In 2011, the C++ standards committee issued a major revision to the ISO C++ standard. This revised standard is latest step in C++’s evolution and continues the emphasis on programmer efficiency. The primary goals of the new standard are to</p>

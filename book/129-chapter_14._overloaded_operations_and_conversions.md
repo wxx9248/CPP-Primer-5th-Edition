@@ -1,3 +1,7 @@
+---
+title: Chapter 14. Overloaded Operations and Conversions
+---
+
 <h2 id="filepos3544393">Chapter 14. Overloaded Operations and Conversions</h2>
 <p>Contents</p><ul><li><strong><a href="130-14.1._basic_concepts.html#filepos3549336">Section 14.1 Basic Concepts</a></strong></li><li><strong><a href="131-14.2._input_and_output_operators.html#filepos3576045">Section 14.2 Input and Output Operators</a></strong></li><li><strong><a href="132-14.3._arithmetic_and_relational_operators.html#filepos3595833">Section 14.3 Arithmetic and Relational Operators</a></strong></li><li><strong><a href="133-14.4._assignment_operators.html#filepos3614210">Section 14.4 Assignment Operators</a></strong></li><li><strong><a href="134-14.5._subscript_operator.html#filepos3620887">Section 14.5 Subscript Operator</a></strong></li><li><strong><a href="135-14.6._increment_and_decrement_operators.html#filepos3630002">Section 14.6 Increment and Decrement Operators</a></strong></li><li><strong><a href="136-14.7._member_access_operators.html#filepos3645985">Section 14.7 Member Access Operators</a></strong></li><li><strong><a href="137-14.8._functioncall_operator.html#filepos3657799">Section 14.8 Function-Call Operator</a></strong></li><li><strong><a href="138-14.9._overloading_conversions_and_operators.html#filepos3713073">Section 14.9 Overloading, Conversions, and Operators</a></strong></li><li><strong><a href="139-chapter_summary.html#filepos3773544">Chapter Summary</a></strong></li><li><strong><a href="140-defined_terms.html#filepos3775079">Defined Terms</a></strong></li></ul>
 

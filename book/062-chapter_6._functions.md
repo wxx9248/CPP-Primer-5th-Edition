@@ -1,3 +1,7 @@
+---
+title: Chapter 6. Functions
+---
+
 <h2 id="filepos1412784">Chapter 6. Functions</h2>
 <p>Contents</p><ul><li><strong><a href="063-6.1._function_basics.html#filepos1415571">Section 6.1 Function Basics</a></strong></li><li><strong><a href="064-6.2._argument_passing.html#filepos1451214">Section 6.2 Argument Passing</a></strong></li><li><strong><a href="065-6.3._return_types_and_the_return_statement.html#filepos1548761">Section 6.3 Return Types and the <code>return</code> Statement</a></strong></li><li><strong><a href="066-6.4._overloaded_functions.html#filepos1597234">Section 6.4 Overloaded Functions</a></strong></li><li><strong><a href="067-6.5._features_for_specialized_uses.html#filepos1630575">Section 6.5 Features for Specialized Uses</a></strong></li><li><strong><a href="068-6.6._function_matching.html#filepos1674559">Section 6.6 Function Matching</a></strong></li><li><strong><a href="069-6.7._pointers_to_functions.html#filepos1702852">Section 6.7 Pointers to Functions</a></strong></li><li><strong><a href="070-chapter_summary.html#filepos1728164">Chapter Summary</a></strong></li><li><strong><a href="071-defined_terms.html#filepos1729163">Defined Terms</a></strong></li></ul>
 

@@ -1,3 +1,7 @@
+---
+title: Chapter 12. Dynamic Memory
+---
+
 <h2 id="filepos2900383">Chapter 12. Dynamic Memory</h2>
 <p>Contents</p><ul><li><strong><a href="114-12.1._dynamic_memory_and_smart_pointers.html#filepos2904799">Section 12.1 Dynamic Memory and Smart Pointers</a></strong></li><li><strong><a href="115-12.2._dynamic_arrays.html#filepos3086710">Section 12.2 Dynamic Arrays</a></strong></li><li><strong><a href="116-12.3._using_the_library_a_textquery_program.html#filepos3140586">Section 12.3 Using the Library: A Text-Query Program</a></strong></li><li><strong><a href="117-chapter_summary.html#filepos3185005">Chapter Summary</a></strong></li><li><strong><a href="118-defined_terms.html#filepos3186257">Defined Terms</a></strong></li></ul>
 

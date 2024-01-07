@@ -1,3 +1,7 @@
+---
+title: Part II: The C++ Library
+---
+
 <h1 id="filepos2066884">Part II: The C++ Library</h1>
 <p>Contents</p><ul><li><strong><a href="082-chapter_8._the_io_library.html#filepos2071768">Chapter 8 The IO Library</a></strong></li><li><strong><a href="088-chapter_9._sequential_containers.html#filepos2171064">Chapter 9 Sequential Containers</a></strong></li><li><strong><a href="097-chapter_10._generic_algorithms.html#filepos2454824">Chapter 10 Generic Algorithms</a></strong></li><li><strong><a href="106-chapter_11._associative_containers.html#filepos2718579">Chapter 11 Associative Containers</a></strong></li><li><strong><a href="113-chapter_12._dynamic_memory.html#filepos2900383">Chapter 12 Dynamic Memory</a></strong></li></ul>
 

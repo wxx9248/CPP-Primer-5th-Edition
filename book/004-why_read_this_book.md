@@ -1,3 +1,7 @@
+---
+title: Why Read This Book?
+---
+
 <h3>Why Read This Book?</h3>
 <p>Modern C++ can be thought of as comprising three parts:</p>
 <ul><li>The low-level language, much of which is inherited from C</li><li>More advanced language features that allow us to define our own types and to organize large-scale programs and systems</li><li>The standard library, which uses these advanced features to provide useful data structures and algorithms</li></ul>

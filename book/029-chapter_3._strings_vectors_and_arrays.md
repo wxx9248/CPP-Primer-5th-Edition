@@ -1,3 +1,7 @@
+---
+title: Chapter 3. Strings, Vectors, and Arrays
+---
+
 <h2 id="filepos633734">Chapter 3. Strings, Vectors, and Arrays</h2>
 <p>Contents</p><ul><li><strong><a href="030-3.1._namespace_using_declarations.html#filepos638596">Section 3.1 Namespace <code>using</code> Declarations</a></strong></li><li><strong><a href="031-3.2._library_string_type.html#filepos649069">Section 3.2 Library <code>string</code> Type</a></strong></li><li><strong><a href="032-3.3._library_vector_type.html#filepos736471">Section 3.3 Library <code>vector</code> Type</a></strong></li><li><strong><a href="033-3.4._introducing_iterators.html#filepos802543">Section 3.4 Introducing Iterators</a></strong></li><li><strong><a href="034-3.5._arrays.html#filepos853883">Section 3.5 Arrays</a></strong></li><li><strong><a href="035-3.6._multidimensional_arrays.html#filepos942882">Section 3.6 Multidimensional Arrays</a></strong></li><li><strong><a href="036-chapter_summary.html#filepos976418">Chapter Summary</a></strong></li><li><strong><a href="037-defined_terms.html#filepos977758">Defined Terms</a></strong></li></ul>
 

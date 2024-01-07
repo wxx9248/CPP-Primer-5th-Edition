@@ -1,3 +1,7 @@
+---
+title: Chapter Summary
+---
+
 <h3 id="filepos5395442"><a id="filepos5395475"></a>Chapter Summary</h3>
 <p>C++ provides several specialized facilities that are tailored to particular kinds of problems.</p>
 <p>Some applications need to take control of how memory is allocated. They can do so by defining their own versions—either class specific or global—of the library <code>operator new</code> and <code>operator delete</code> functions. If the application defines its own versions of these functions, <code>new</code> and <code>delete</code> expressions will use the application-defined version.</p>

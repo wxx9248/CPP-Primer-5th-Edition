@@ -1,3 +1,7 @@
+---
+title: Part IV: Advanced Topics
+---
+
 <h1 id="filepos4558192">Part IV: Advanced Topics</h1>
 <p>Contents</p><ul><li><strong><a href="162-chapter_17._specialized_library_facilities.html#filepos4563206">Chapter 17 Specialized Library Facilities</a></strong></li><li><strong><a href="170-chapter_18._tools_for_large_programs.html#filepos4852546">Chapter 18 Tools for Large Programs</a></strong></li><li><strong><a href="176-chapter_19._specialized_tools_and_techniques.html#filepos5121571">Chapter 19 Specialized Tools and Techniques</a></strong></li></ul>
 

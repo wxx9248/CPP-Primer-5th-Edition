@@ -1,3 +1,7 @@
+---
+title: Chapter 7. Classes
+---
+
 <h2 id="filepos1741323">Chapter 7. Classes</h2>
 <p>Contents</p><ul><li><strong><a href="073-7.1._defining_abstract_data_types.html#filepos1745423">Section 7.1 Defining Abstract Data Types</a></strong></li><li><strong><a href="074-7.2._access_control_and_encapsulation.html#filepos1833387">Section 7.2 Access Control and Encapsulation</a></strong></li><li><strong><a href="075-7.3._additional_class_features.html#filepos1851857">Section 7.3 Additional Class Features</a></strong></li><li><strong><a href="076-7.4._class_scope.html#filepos1923787">Section 7.4 Class Scope</a></strong></li><li><strong><a href="077-7.5._constructors_revisited.html#filepos1952599">Section 7.5 Constructors Revisited</a></strong></li><li><strong><a href="078-7.6._static_class_members.html#filepos2028441">Section 7.6 <code>static</code> Class Members</a></strong></li><li><strong><a href="079-chapter_summary.html#filepos2052488">Chapter Summary</a></strong></li><li><strong><a href="080-defined_terms.html#filepos2054441">Defined Terms</a></strong></li></ul>
 

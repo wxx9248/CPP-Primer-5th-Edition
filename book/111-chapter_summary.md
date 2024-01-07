@@ -1,3 +1,7 @@
+---
+title: Chapter Summary
+---
+
 <h3 id="filepos2887561"><a id="filepos2887594"></a>Chapter Summary</h3>
 <p>The associative containers support efficient lookup and retrieval of elements by key. The use of a key distinguishes the associative containers from the sequential containers, in which elements are accessed positionally.</p>
 <p>There are eight associative containers, each of which</p>

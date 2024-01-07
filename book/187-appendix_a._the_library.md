@@ -1,3 +1,7 @@
+---
+title: Appendix A. The Library
+---
+
 <h2 id="filepos5411866">Appendix A. The Library</h2>
 <p>Contents</p><ul><li><strong><a href="188-a.1._library_names_and_headers.html#filepos5413594">Section A.1 Library Names and Headers</a></strong></li><li><strong><a href="189-a.2._a_brief_tour_of_the_algorithms.html#filepos5414819">Section A.2 A Brief Tour of the Algorithms</a></strong></li><li><strong><a href="190-a.3._random_numbers.html#filepos5496561">Section A.3 Random Numbers</a></strong></li></ul>
 

@@ -1,3 +1,7 @@
+---
+title: C++ Primer, Fifth Edition
+---
+
 <h1 id="filepos165">C++ Primer, Fifth Edition</h1>
 <p><strong>Stanley B. Lippman<br/>Josée Lajoie<br/>Barbara E. Moo</strong></p>
 <p><img alt="Image" src="/images/00007.jpg"/><br/>Upper Saddle River, NJ • Boston • Indianapolis • San Francisco<br/>New York • Toronto • Montreal • London • Munich • Paris • Madrid<br/>Capetown • Sidney • Tokyo • Singapore • Mexico City</p> <p>Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks. Where those designations appear in this book, and the publisher was aware of a trademark claim, the designations have been printed with initial capital letters or in all capitals.</p>

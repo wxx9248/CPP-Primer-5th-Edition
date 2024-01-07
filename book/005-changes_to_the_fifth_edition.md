@@ -1,3 +1,7 @@
+---
+title: Changes to the Fifth Edition
+---
+
 <h3>Changes to the Fifth Edition</h3>
 <p>New to this edition of <em>C++ Primer</em> are icons in the margins to help guide the reader. C++ is a large language that offers capabilities tailored to particular kinds of programming problems. Some of these capabilities are of great import for large project teams but might not be necessary for smaller efforts. As a result, not every programmer needs to know every detail of every feature. We’ve added these marginal icons to help the reader know which parts can be learned later and which topics are more essential.</p>
 <Badge type="info" text="Fundamental" />

@@ -1,3 +1,7 @@
+---
+title: Chapter 8. The IO Library
+---
+
 <h2 id="filepos2071768">Chapter 8. The IO Library</h2>
 <p>Contents</p><ul><li><strong><a href="083-8.1._the_io_classes.html#filepos2076693">Section 8.1 The IO Classes</a></strong></li><li><strong><a href="084-8.2._file_input_and_output.html#filepos2111869">Section 8.2 File Input and Output</a></strong></li><li><strong><a href="085-8.3._string_streams.html#filepos2143868">Section 8.3 <code>string</code> Streams</a></strong></li><li><strong><a href="086-chapter_summary.html#filepos2163240">Chapter Summary</a></strong></li><li><strong><a href="087-defined_terms.html#filepos2165565">Defined Terms</a></strong></li></ul>
 

@@ -1,3 +1,7 @@
+---
+title: Chapter 19. Specialized Tools and Techniques
+---
+
 <h2 id="filepos5121571">Chapter 19. Specialized Tools and Techniques</h2>
 <p>Contents</p><ul><li><strong><a href="177-19.1._controlling_memory_allocation.html#filepos5124326">Section 19.1 Controlling Memory Allocation</a></strong></li><li><strong><a href="178-19.2._runtime_type_identification.html#filepos5158705">Section 19.2 Run-Time Type Identification</a></strong></li><li><strong><a href="179-19.3._enumerations.html#filepos5202480">Section 19.3 Enumerations</a></strong></li><li><strong><a href="180-19.4._pointer_to_class_member.html#filepos5224528">Section 19.4 Pointer to Class Member</a></strong></li><li><strong><a href="181-19.5._nested_classes.html#filepos5285021">Section 19.5 Nested Classes</a></strong></li><li><strong><a href="182-19.6._union_a_spacesaving_class.html#filepos5306482">Section 19.6 <code>union</code>: A Space-Saving Class</a></strong></li><li><strong><a href="183-19.7._local_classes.html#filepos5346574">Section 19.7 Local Classes</a></strong></li><li><strong><a href="184-19.8._inherently_nonportable_features.html#filepos5354776">Section 19.8 Inherently Nonportable Features</a></strong></li><li><strong><a href="185-chapter_summary.html#filepos5395442">Chapter Summary</a></strong></li><li><strong><a href="186-defined_terms.html#filepos5398647">Defined Terms</a></strong></li></ul>
 

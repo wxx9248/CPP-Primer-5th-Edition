@@ -1,3 +1,7 @@
+---
+title: Part I: The Basics
+---
+
 <h1 id="filepos278698">Part I: The Basics</h1>
 <p>Contents</p><ul><li><strong><a href="020-chapter_2._variables_and_basic_types.html#filepos284544">Chapter 2 Variables and Basic Types</a></strong></li><li><strong><a href="029-chapter_3._strings_vectors_and_arrays.html#filepos633734">Chapter 3 Strings, Vectors, and Arrays</a></strong></li><li><strong><a href="038-chapter_4._expressions.html#filepos995349">Chapter 4 Expressions</a></strong></li><li><strong><a href="053-chapter_5._statements.html#filepos1230677">Chapter 5 Statements</a></strong></li><li><strong><a href="062-chapter_6._functions.html#filepos1412784">Chapter 6 Functions</a></strong></li><li><strong><a href="072-chapter_7._classes.html#filepos1741323">Chapter 7 Classes</a></strong></li></ul>
 

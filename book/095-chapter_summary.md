@@ -1,3 +1,7 @@
+---
+title: Chapter Summary
+---
+
 <h3 id="filepos2442334"><a id="filepos2442367"></a>Chapter Summary</h3>
 <p>The library containers are template types that holds objects of a given type. In a sequential container, elements are ordered and accessed by position. The sequential containers share a common, standardized interface: If two sequential containers offer a particular operation, then the operation has the same interface and meaning for both containers.</p>
 <p>All the containers (except <code>array</code>) provide efficient dynamic memory management. We may add elements to the container without worrying about where to store the elements. The container itself manages its storage. Both <code>vector</code> and <code>string</code> provide more detailed control over memory management through their <code>reserve</code> and <code>capacity</code> members.</p>

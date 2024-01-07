@@ -1,3 +1,7 @@
+---
+title: Chapter Summary
+---
+
 <h3 id="filepos5102148"><a id="filepos5102181"></a>Chapter Summary</h3>
 <p>C++ is used to solve a wide range of problems—from those solvable in a few hours’ time to those that take years of development by large teams. Some features in C++ are most applicable in the context of large-scale problems: exception handling, namespaces, and multiple or virtual inheritance.</p>
 <p>Exception handling lets us separate the error-detection part of the program from the error-handling part. When an exception is thrown, the current executing function is suspended and a search is started to find the nearest matching <code>catch</code> clause. Local variables defined inside functions that are exited while searching for a <code>catch</code> clause are destroyed as part of handling the exception.</p>

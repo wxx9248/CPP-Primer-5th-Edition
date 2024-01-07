@@ -1,3 +1,7 @@
+---
+title: Chapter 18. Tools for Large Programs
+---
+
 <h2 id="filepos4852546">Chapter 18. Tools for Large Programs</h2>
 <p>Contents</p><ul><li><strong><a href="171-18.1._exception_handling.html#filepos4855328">Section 18.1 Exception Handling</a></strong></li><li><strong><a href="172-18.2._namespaces.html#filepos4928252">Section 18.2 Namespaces</a></strong></li><li><strong><a href="173-18.3._multiple_and_virtual_inheritance.html#filepos5026780">Section 18.3 Multiple and Virtual Inheritance</a></strong></li><li><strong><a href="174-chapter_summary.html#filepos5102148">Chapter Summary</a></strong></li><li><strong><a href="175-defined_terms.html#filepos5104665">Defined Terms</a></strong></li></ul>
 

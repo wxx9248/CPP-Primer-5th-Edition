@@ -1,3 +1,7 @@
+---
+title: Part III: Tools for Class Authors
+---
+
 <h1 id="filepos3192626">Part III: Tools for Class Authors</h1>
 <p>Contents</p><ul><li><strong><a href="120-chapter_13._copy_control.html#filepos3197881">Chapter 13 Copy Control</a></strong></li><li><strong><a href="129-chapter_14._overloaded_operations_and_conversions.html#filepos3544393">Chapter 14 Overloaded Operations and Conversions</a></strong></li><li><strong><a href="141-chapter_15._objectoriented_programming.html#filepos3778984">Chapter 15 Object-Oriented Programming</a></strong></li><li><strong><a href="153-chapter_16._templates_and_generic_programming.html#filepos4150078">Chapter 16 Templates and Generic Programming</a></strong></li></ul>
 

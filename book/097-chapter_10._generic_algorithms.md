@@ -1,3 +1,7 @@
+---
+title: Chapter 10. Generic Algorithms
+---
+
 <h2 id="filepos2454824">Chapter 10. Generic Algorithms</h2>
 <p>Contents</p><ul><li><strong><a href="098-10.1._overview.html#filepos2458324">Section 10.1 Overview</a></strong></li><li><strong><a href="099-10.2._a_first_look_at_the_algorithms.html#filepos2472467">Section 10.2 A First Look at the Algorithms</a></strong></li><li><strong><a href="100-10.3._customizing_operations.html#filepos2519145">Section 10.3 Customizing Operations</a></strong></li><li><strong><a href="101-10.4._revisiting_iterators.html#filepos2617947">Section 10.4 Revisiting Iterators</a></strong></li><li><strong><a href="102-10.5._structure_of_generic_algorithms.html#filepos2671539">Section 10.5 Structure of Generic Algorithms</a></strong></li><li><strong><a href="103-10.6._containerspecific_algorithms.html#filepos2700621">Section 10.6 Container-Specific Algorithms</a></strong></li><li><strong><a href="104-chapter_summary.html#filepos2707156">Chapter Summary</a></strong></li><li><strong><a href="105-defined_terms.html#filepos2709584">Defined Terms</a></strong></li></ul>
 

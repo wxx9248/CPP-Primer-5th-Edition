@@ -1,3 +1,7 @@
+---
+title: New Features in C++11
+---
+
 <h2 id="calibre_pb_6">New Features in C++11</h2>
 <p><a href="021-2.1._primitive_builtin_types.html#filepos292468">2.1.1 <code>long long</code> Type</a></p>
 <p><a href="022-2.2._variables.html#filepos360541">2.2.1 List Initialization</a></p>

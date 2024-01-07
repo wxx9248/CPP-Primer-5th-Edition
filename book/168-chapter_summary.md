@@ -1,3 +1,7 @@
+---
+title: Chapter Summary
+---
+
 <h3 id="filepos4838677"><a id="filepos4838710"></a>Chapter Summary</h3>
 <p>This chapter covered additional IO operations and four library types: <code>tuple</code>, <code>bitset</code>, regular expressions, and random numbers.</p>
 <p>A <code>tuple</code> is a template that allows us to bundle together members of disparate types into a single object. Each <code>tuple</code> contains a specified number of members, but the library imposes no limit on the number of members we can define for a given <code>tuple</code> type.</p>

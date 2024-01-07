@@ -1,3 +1,7 @@
+---
+title: Chapter 13. Copy Control
+---
+
 <h2 id="filepos3197881">Chapter 13. Copy Control</h2>
 <p>Contents</p><ul><li><strong><a href="121-13.1._copy_assign_and_destroy.html#filepos3202630">Section 13.1 Copy, Assign, and Destroy</a></strong></li><li><strong><a href="122-13.2._copy_control_and_resource_management.html#filepos3281447">Section 13.2 Copy Control and Resource Management</a></strong></li><li><strong><a href="123-13.3._swap.html#filepos3315883">Section 13.3 Swap</a></strong></li><li><strong><a href="124-13.4._a_copycontrol_example.html#filepos3341274">Section 13.4 A Copy-Control Example</a></strong></li><li><strong><a href="125-13.5._classes_that_manage_dynamic_memory.html#filepos3380687">Section 13.5 Classes That Manage Dynamic Memory</a></strong></li><li><strong><a href="126-13.6._moving_objects.html#filepos3426774">Section 13.6 Moving Objects</a></strong></li><li><strong><a href="127-chapter_summary.html#filepos3533220">Chapter Summary</a></strong></li><li><strong><a href="128-defined_terms.html#filepos3534784">Defined Terms</a></strong></li></ul>
 

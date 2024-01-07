@@ -1,3 +1,7 @@
+---
+title: What's new in C++11
+---
+
 <h3>What’s new in C++11</h3>
 <p><code>= default</code>, <a href="073-7.1._defining_abstract_data_types.html#filepos1815669">265</a>, <a href="121-13.1._copy_assign_and_destroy.html#filepos3257021">506</a></p>
 <p><code>= delete</code>, <a href="121-13.1._copy_assign_and_destroy.html#filepos3262148">507</a></p>

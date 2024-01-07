@@ -1,3 +1,7 @@
+---
+title: Structure of This Book
+---
+
 <h3>Structure of This Book</h3>
 <p>We start by covering the basics of the language and the library together in <a href="019-part_i_the_basics.html#filepos278698">Parts I</a> and <a href="081-part_ii_the_cpp_library.html#filepos2066884">II</a>. These parts cover enough material to let you, the reader, write significant programs. Most C++ programmers need to know essentially everything covered in this portion of the book.</p>
 <p>In addition to teaching the basics of C++, the material in <a href="019-part_i_the_basics.html#filepos278698">Parts I</a> and <a href="081-part_ii_the_cpp_library.html#filepos2066884">II</a> serves another important purpose: By using the abstract facilities defined by the library, you will become more comfortable with using high-level programming techniques. The library facilities are themselves abstract data types that are usually written in C++. The library can be defined using the same class-construction features that are available to any C++ programmer. Our experience in teaching C++ is that by first using well-designed abstract types, readers find it easier to understand how to build their own types.</p>
