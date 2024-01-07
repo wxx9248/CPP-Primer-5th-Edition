@@ -1,5 +1,5 @@
 ---
-title: Part II: The C++ Library
+title: "Part II: The C++ Library"
 ---
 
 <h1 id="filepos2066884">Part II: The C++ Library</h1>

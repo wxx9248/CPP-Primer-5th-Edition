@@ -1,5 +1,5 @@
 ---
-title: Part III: Tools for Class Authors
+title: "Part III: Tools for Class Authors"
 ---
 
 <h1 id="filepos3192626">Part III: Tools for Class Authors</h1>
