@@ -13,7 +13,11 @@ export default defineConfig({
             {text: 'Home', link: '/'},
             {text: 'Cover Page', link: '/book/000-cpp_primer_fifth_edition.html'},
             {text: 'Contents', link: '/book/001-contents.html'},
-            {text: 'Plain Version', link: "https://cpp-primer-5th-edition-plain.pages.dev/000-cpp_primer_fifth_edition"}
+            {
+                text: 'Plain Version',
+                link: "src/000-cpp_primer_fifth_edition.html",
+                target: "_blank"
+            }
         ],
         sidebar: [
             {

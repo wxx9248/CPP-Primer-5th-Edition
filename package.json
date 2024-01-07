@@ -2,7 +2,9 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "build-and-copy-plain": "vitepress build && cp -r src .vitepress/dist/",
+    "clean": "rm -r .vitepress/dist/"
   },
   "devDependencies": {
     "vitepress": "1.0.0-rc.35"
