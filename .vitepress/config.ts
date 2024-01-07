@@ -15,7 +15,6 @@ export default defineConfig({
             {text: 'Contents', link: '/book/001-contents.html'},
             {text: 'Plain Version', link: "/src/000-cpp_primer_fifth_edition.html"}
         ],
-
         sidebar: [
             {
                 "text": "Cover Page",
@@ -1006,7 +1005,7 @@ export default defineConfig({
         ],
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/wxx9248/CPP-Primer-5th-Web-Edition'}
+            {icon: "github", link: "https://github.com/wxx9248/CPP-Primer-5th-Web-Edition"}
         ]
     }
 })
