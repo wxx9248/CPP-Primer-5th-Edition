@@ -15,7 +15,7 @@ export default defineConfig({
             {text: 'Contents', link: '/book/001-contents.html'},
             {
                 text: 'Plain Version',
-                link: "src/000-cpp_primer_fifth_edition.html",
+                link: "/src/000-cpp_primer_fifth_edition.html",
                 target: "_blank"
             }
         ],
