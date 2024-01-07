@@ -2,7 +2,7 @@ import {defineConfig} from "vitepress"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    base: "/CPP-Primer-5th-Web-Edition",
+    base: "/",
     title: "C++ Primer, Fifth Edition",
     description: "C++ Primer, Fifth Edition. Text transcribed by Team LiB.",
     lang: "en-US",
