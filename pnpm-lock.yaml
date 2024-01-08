@@ -11,8 +11,8 @@ dependencies:
 
 devDependencies:
   vitepress:
-    specifier: 1.0.0-rc.35
-    version: 1.0.0-rc.35(@algolia/client-search@4.22.0)(search-insights@2.13.0)
+    specifier: 1.0.0-rc.36
+    version: 1.0.0-rc.36(@algolia/client-search@4.22.0)(search-insights@2.13.0)
 
 packages:
 
@@ -558,14 +558,14 @@ packages:
     resolution: {integrity: sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==}
     dev: true
 
-  /@vitejs/plugin-vue@5.0.2(vite@5.0.10)(vue@3.4.5):
+  /@vitejs/plugin-vue@5.0.2(vite@5.0.11)(vue@3.4.5):
     resolution: {integrity: sha512-kEjJHrLb5ePBvjD0SPZwJlw1QTRcjjCA9sB5VyfonoXVBxTS7TMnqL6EkLt1Eu61RDeiuZ/WN9Hf6PxXhPI2uA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.0.10
+      vite: 5.0.11
       vue: 3.4.5
     dev: true
 
@@ -891,8 +891,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /vite@5.0.10:
-    resolution: {integrity: sha512-2P8J7WWgmc355HUMlFrwofacvr98DAjoE52BfdbwQtyLH06XKwaL/FMnmKM2crF0iX4MpmMKoDlNCB1ok7zHCw==}
+  /vite@5.0.11:
+    resolution: {integrity: sha512-XBMnDjZcNAw/G1gEiskiM1v6yzM4GE5aMGvhWTlHAYYhxb7S3/V1s3m2LDHa8Vh6yIWYYB0iJwsEaS523c4oYA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -926,12 +926,12 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitepress@1.0.0-rc.35(@algolia/client-search@4.22.0)(search-insights@2.13.0):
-    resolution: {integrity: sha512-+2VnFwtYIiKWWAnMjWg7ik0PfsUdrNoZIZKeu5dbJtrkzKO/mTvlA3owiT5VBKJsZAgI17B5UV37aYfUvGrN6g==}
+  /vitepress@1.0.0-rc.36(@algolia/client-search@4.22.0)(search-insights@2.13.0):
+    resolution: {integrity: sha512-2z4dpM9PplN/yvTifhavOIAazlCR6OJ5PvLoRbc+7LdcFeIlCsuDGENLX4HjMW18jQZF5/j7++PNqdBfeazxUA==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4.3.2
-      postcss: ^8.4.32
+      postcss: ^8.4.33
     peerDependenciesMeta:
       markdown-it-mathjax3:
         optional: true
@@ -941,7 +941,7 @@ packages:
       '@docsearch/css': 3.5.2
       '@docsearch/js': 3.5.2(@algolia/client-search@4.22.0)(search-insights@2.13.0)
       '@types/markdown-it': 13.0.7
-      '@vitejs/plugin-vue': 5.0.2(vite@5.0.10)(vue@3.4.5)
+      '@vitejs/plugin-vue': 5.0.2(vite@5.0.11)(vue@3.4.5)
       '@vue/devtools-api': 6.5.1
       '@vueuse/core': 10.7.1(vue@3.4.5)
       '@vueuse/integrations': 10.7.1(focus-trap@7.5.4)(vue@3.4.5)
@@ -951,7 +951,7 @@ packages:
       shikiji: 0.9.17
       shikiji-core: 0.9.17
       shikiji-transformers: 0.9.17
-      vite: 5.0.10
+      vite: 5.0.11
       vue: 3.4.5
     transitivePeerDependencies:
       - '@algolia/client-search'
