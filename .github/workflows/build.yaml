@@ -14,7 +14,7 @@ jobs:
       - name: Setup Node.js Environment
         uses: actions/setup-node@v4.0.1
         with:
-          node-version: 18
+          node-version: 20
       - name: Setup pnpm
         run: |
           npm install --global pnpm
