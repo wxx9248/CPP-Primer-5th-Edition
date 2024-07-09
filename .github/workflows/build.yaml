@@ -12,7 +12,7 @@ jobs:
         with:
           submodules: recursive
       - name: Setup Node.js Environment
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.0.3
         with:
           node-version: 20
       - name: Setup pnpm
