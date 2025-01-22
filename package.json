@@ -7,7 +7,7 @@
     "clean": "rm -r .vitepress/dist/"
   },
   "devDependencies": {
-    "vitepress": "1.6.1"
+    "vitepress": "1.6.2"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47"
