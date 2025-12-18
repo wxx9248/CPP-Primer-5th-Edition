@@ -141,3 +141,5 @@ dist
 
 # JetBrains workspace
 .idea/
+src/.DS_Store
+.DS_Store
