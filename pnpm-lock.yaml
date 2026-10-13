@@ -655,8 +655,13 @@ packages:
     resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
     engines: {node: ^10 || ^12 || >=14}
 
-  preact@10.27.1:
-    resolution: {integrity: sha512-V79raXEWch/rbqoNc7nT9E4ep7lu+mI3+sBmfRD4i1M73R3WLYcCtdI0ibxGVf4eQL8ZIz2nFacqEC+rmnOORQ==}
+  preact@10.29.8:
+    resolution: {integrity: sha512-ej2aVZ+vZ8WO7tvlQWRM9N63A0KzF9q4mWJfDUHgYaIofWY9hu74QdnQrjoPMmZi2/nZ5gN0bJCQF49xQqx09Q==}
+    peerDependencies:
+      preact-render-to-string: '>=5'
+    peerDependenciesMeta:
+      preact-render-to-string:
+        optional: true
 
   property-information@7.1.0:
     resolution: {integrity: sha512-TwEZ+X+yCJmYfL7TPUOcvBZ4QfoT5YenQiJuX//0th53DE6w0xxLEtfK3iyryQFddXuvkIk51EEgrJQ0WJkOmQ==}
@@ -915,10 +920,11 @@ snapshots:
   '@docsearch/js@3.8.2(@algolia/client-search@5.37.0)(search-insights@2.13.0)':
     dependencies:
       '@docsearch/react': 3.8.2(@algolia/client-search@5.37.0)(search-insights@2.13.0)
-      preact: 10.27.1
+      preact: 10.29.8
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/react'
+      - preact-render-to-string
       - react
       - react-dom
       - search-insights
@@ -1404,7 +1410,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.2
 
-  preact@10.27.1: {}
+  preact@10.29.8: {}
 
   property-information@7.1.0: {}
 
@@ -1556,6 +1562,7 @@ snapshots:
       - less
       - lightningcss
       - nprogress
+      - preact-render-to-string
       - qrcode
       - react
       - react-dom
