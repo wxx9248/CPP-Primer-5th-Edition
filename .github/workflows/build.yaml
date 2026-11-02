@@ -16,10 +16,10 @@ jobs:
       - name: Setup Node.js Environment
         uses: actions/setup-node@v7.1.0
         with:
-          node-version: 20
+          node-version: 26
       - name: Setup pnpm
         run: |
-          npm install --global pnpm
+          npm install --global pnpm@12.16.1
       - name: Fetching Node Modules
         run: |
           pnpm install
