@@ -1,15 +1,24 @@
+# Weekly update pull requests, one per ecosystem for minor and patch updates;
+# major updates get their own. The cooldown matches pnpm's minimumReleaseAge:
+# no releases younger than a day.
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: npm
+    directory: /
     schedule:
-      interval: "daily"
-    commit-message:
-      prefix: "Dependency Updates"
+      interval: weekly
+    cooldown:
+      default-days: 1
+    groups:
+      npm:
+        update-types: [minor, patch]
 
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: github-actions
+    directory: /
     schedule:
-      interval: "daily"
-    commit-message:
-      prefix: "GitHub Actions Updates"
+      interval: weekly
+    cooldown:
+      default-days: 1
+    groups:
+      github-actions:
+        update-types: [minor, patch]
